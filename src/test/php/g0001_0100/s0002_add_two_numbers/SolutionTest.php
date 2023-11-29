@@ -3,8 +3,8 @@
 namespace leetcode\g0001_0100\s0002_add_two_numbers;
 
 use PHPUnit\Framework\TestCase;
-use leetcode\com_github_leetcode\LinkedListUtils;
-use leetcode\com_github_leetcode\ListNode;
+use \leetcode\com_github_leetcode\LinkedListUtils;
+use \leetcode\com_github_leetcode\ListNode;
 
 class SolutionTest extends TestCase {
     public function testAddTwoNumbers() {
