@@ -14,7 +14,7 @@
          verbose="true">
     <testsuites>
         <testsuite name="default">
-            <directory>Tests</directory>
+            <directory>src/test/php</directory>
         </testsuite>
     </testsuites>
 
@@ -26,7 +26,7 @@
 
         <exclude>
             <directory suffix=".php">vendor/</directory>
-            <directory suffix=".php">Tests/</directory>
+            <directory suffix=".php">src/test/php/</directory>
         </exclude>
         <report>
             <clover outputFile="clover.xml" />
