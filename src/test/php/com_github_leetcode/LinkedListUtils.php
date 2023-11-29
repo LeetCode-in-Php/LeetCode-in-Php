@@ -1,6 +1,8 @@
 <?php
 
-namespace leetcode\tests\com_github_leetcode;
+namespace leetcode\com_github_leetcode;
+
+use leetcode\com_github_leetcode\ListNode;
 
 class LinkedListUtils {
     public static function constructLinkedList($nums) {
