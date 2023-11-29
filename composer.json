@@ -1,18 +1,26 @@
 {
-  "name": "javadev/leetcode-in-php",
-  "description": "Php-based LeetCode algorithm problem solutions, regularly updated",
-  "require": {
-    "phpunit/phpunit": "^9.5"
-  },
-  "license": "MIT",
-  "autoload": {
-    "psr-4": {
-      "Javadev\\LeetCodeInPhp\\": ""
+    "name": "javadev/leetcode",
+    "description": "Php-based LeetCode algorithm problem solutions, regularly updated",
+    "license": "MIT",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "javadev\\leetcode\\": "./src/main/php/",
+            "javadev\\leetcode\\tests\\": "./src/test/php/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Valentyn Kolesnikov"
+        }
+    ],
+    "config": {
+        "platform": {
+            "php": "8.2"
+        }
+    },
+    "require": {
+        "php": ">=8.1",
+        "phpunit/phpunit": "~10.2"
     }
-  },
-  "authors": [
-    {
-      "name": "Valentyn Kolesnikov"
-    }
-  ]
 }
