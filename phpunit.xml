@@ -18,18 +18,9 @@
         </testsuite>
     </testsuites>
 
-    <coverage cacheDirectory=".phpunit.cache/code-coverage"
-              processUncoveredFiles="true">
-        <include>
-            <directory suffix=".php">./</directory>
-        </include>
-
-        <exclude>
-            <directory suffix=".php">vendor/</directory>
-            <directory suffix=".php">src/test/php/</directory>
-        </exclude>
-        <report>
-            <clover outputFile="clover.xml" />
-        </report>
-    </coverage>
+    <filter>
+        <whitelist>
+            <directory suffix=".php">./src/main/php</directory>
+        </whitelist>
+    </filter>
 </phpunit>
