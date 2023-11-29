@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 namespace g0001_0100\s0001_two_sum;
 
