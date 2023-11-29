@@ -7,7 +7,7 @@
   "license": "MIT",
   "autoload": {
     "psr-4": {
-      "Javadev\\LeetCodeInPhp\\": "src/main/php/"
+      "Javadev\\LeetCodeInPhp\\": ""
     }
   },
   "authors": [
