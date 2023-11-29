@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 namespace leetcode\g0001_0100\s0002_add_two_numbers;
 
