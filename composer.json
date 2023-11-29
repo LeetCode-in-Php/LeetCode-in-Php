@@ -21,12 +21,7 @@
   },
   "autoload": {
     "psr-4": {
-      "leetcode\\": "src/main/php/"
-    }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "leetcode\\tests\\": "src/test/php/"
+      "\\": "src/main/php/"
     }
   },
   "extra": {
