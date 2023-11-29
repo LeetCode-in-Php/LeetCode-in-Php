@@ -1,6 +1,6 @@
 <?php
 
-namespace g0001_0100\s0001_two_sum;
+namespace leetcode\g0001_0100\s0001_two_sum;
 
 use PHPUnit\Framework\TestCase;
 
