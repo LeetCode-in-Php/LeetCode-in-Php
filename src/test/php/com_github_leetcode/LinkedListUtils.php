@@ -6,7 +6,7 @@ use leetcode\com_github_leetcode\ListNode;
 
 class LinkedListUtils {
     public static function constructLinkedList($nums) {
-        if ($nums === null || count($nums) === 0) {
+        if ($nums === null || empty($nums)) {
             return null;
         }
         $pre = new ListNode(-1);
@@ -20,7 +20,7 @@ class LinkedListUtils {
     }
 
     public static function createSinglyLinkedList($listValues) {
-        if ($listValues === null || count($listValues) === 0) {
+        if ($listValues === null || empty($listValues)) {
             throw new InvalidArgumentException(
                 "Please pass in a valid listValues to create a singly linked list."
             );
