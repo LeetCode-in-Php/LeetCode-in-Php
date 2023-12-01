@@ -6,4 +6,4 @@
 [![](https://img.shields.io/github/stars/LeetCode-in-Php/LeetCode-in-Php?style=flat-square)](https://github.com/LeetCode-in-Php/LeetCode-in-Php)
 [![](https://img.shields.io/github/forks/LeetCode-in-Php/LeetCode-in-Php?style=flat-square)](https://github.com/LeetCode-in-Php/LeetCode-in-Php/fork)
 
-Php-based LeetCode algorithm problem solutions, regularly updated.
+Php-based LeetCode algorithm problem solutions, regularly updated
