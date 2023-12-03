@@ -7,7 +7,6 @@ namespace leetcode\g0001_0100\s0001_two_sum;
 // #2023_11_29_Time_9_ms_(97.47%)_Space_19.8_MB_(77.40%)
 
 class Solution {
-
     /**
      * @param Integer[] $nums
      * @param Integer $target
