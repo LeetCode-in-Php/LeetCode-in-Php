@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testLongestPalindrome() {
-        $this->assertEquals("bab", (new Solution())->longestPalindrome("babad"));
+        $this->assertEquals("aba", (new Solution())->longestPalindrome("babad"));
     }
 
     public function testLongestPalindrome2() {
