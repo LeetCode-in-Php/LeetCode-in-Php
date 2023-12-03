@@ -2,24 +2,30 @@
 
 namespace leetcode\g0001_0100\s0009_palindrome_number;
 
-// #Easy #Math #Udemy_Integers #2023_08_09_Time_4_ms_(100.00%)_Space_43_MB_(43.42%)
+// #Easy #Math #Udemy_Integers #2023_12_03_Time_23_ms_(76.73%)_Space_19.4_MB_(5.93%)
 
 class Solution {
-    public function isPalindrome($x) {
-        if ($x < 0) {
-            return false;
+    /**
+     * @param Integer $x
+     * @return Boolean
+     */
+    function isPalindrome($x) {
+        if ($x < 0) return false;
+        $x = (string)$x;
+        $size = strlen($x);
+        if ($size % 2 == 1) {
+            $c = ($size - 1) / 2;
+            for ($i = 0; $i < $c; $i++) {
+                if ($i == $c) return true;
+                if ($x[$i] !== $x[$size - ($i + 1)]) return false;
+            }
+            return true;
+        } else {
+            $c = $size / 2;
+            for ($i = 0; $i < $c; $i++) {
+                if ($x[$i] !== $x[$size - ($i + 1)]) return false;
+            }
+            return true;
         }
-
-        $rev = 0;
-        $localX = $x;
-
-        while ($localX > 0) {
-            $rev *= 10;
-            $rev += $localX % 10;
-            $localX /= 10;
-            $localX = (int)$localX; // Ensure integer division
-        }
-
-        return $rev == $x;
     }
 }
