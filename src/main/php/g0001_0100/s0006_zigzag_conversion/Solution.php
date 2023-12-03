@@ -11,18 +11,28 @@ class Solution {
      * @return String
      */
     function convert($s, $numRows) {
-        if ($numRows === 1) {
+        if ($numRows == 1) {
             return $s;
         }
-
-        $n = $numRows - 1;
-        $len = strlen($s);
-        $zigzag = array_fill(0, $n, '');
-
-        for ($i = 0; $i < $len; ++$i) {
-            $zigzag[$n - abs($i % (2 * $n) - $n)] .= $s[$i];
+        $row = 0;
+        $col = 0;
+        $dir = 'down';
+        for ($i = 0; $i < strlen($s); $i++) {
+            $string[$row][] = $s[$i];
+            if ($row < $numRows - 1 && $dir == 'down') {
+                $row++;
+            } else if ($row == $numRows - 1 && $dir == 'down') {
+                $row--;
+                $dir = 'up';
+                $col++;
+            } else if ($row > 0) {
+                $row--;
+                $col++;
+            } else {
+                $dir = 'down';
+                $row++;
+            }
         }
-
-        return implode('', $zigzag);
+        return implode(array_merge(...$string));
     }
 }
