@@ -31,7 +31,7 @@ class Solution {
                 if ($substr === strrev($substr)) {
                     $str = $substr;
                     $max_length = $len;
-                } else if ($max_length + 1 < $len) {
+                } elseif ($max_length + 1 < $len) {
                     break;
                 }
             }
