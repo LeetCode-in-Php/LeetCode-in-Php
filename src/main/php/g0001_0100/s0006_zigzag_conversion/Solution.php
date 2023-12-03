@@ -21,11 +21,11 @@ class Solution {
             $string[$row][] = $s[$i];
             if ($row < $numRows - 1 && $dir == 'down') {
                 $row++;
-            } else if ($row == $numRows - 1 && $dir == 'down') {
+            } elseif ($row == $numRows - 1 && $dir == 'down') {
                 $row--;
                 $dir = 'up';
                 $col++;
-            } else if ($row > 0) {
+            } elseif ($row > 0) {
                 $row--;
                 $col++;
             } else {

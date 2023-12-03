@@ -16,14 +16,20 @@ class Solution {
         if ($size % 2 == 1) {
             $c = ($size - 1) / 2;
             for ($i = 0; $i < $c; $i++) {
-                if ($i == $c) return true;
-                if ($x[$i] !== $x[$size - ($i + 1)]) return false;
+                if ($i == $c) {
+                    return true;
+                }
+                if ($x[$i] !== $x[$size - ($i + 1)]) {
+                    return false;
+                }
             }
             return true;
         } else {
             $c = $size / 2;
             for ($i = 0; $i < $c; $i++) {
-                if ($x[$i] !== $x[$size - ($i + 1)]) return false;
+                if ($x[$i] !== $x[$size - ($i + 1)]) {
+                    return false;
+                }
             }
             return true;
         }
