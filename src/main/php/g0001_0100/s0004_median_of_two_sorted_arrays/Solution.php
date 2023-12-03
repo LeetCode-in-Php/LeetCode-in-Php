@@ -26,19 +26,19 @@ class Solution {
         $i = 0;
         $i1 = 0;
         $i2 = 0;
-        for ($i1 = 0; $i < $sum; $i++) {
+        while ($i < $sum) {
             if (!isset($nums1[$i1])) {
                 $nums3[] = $nums2[$i2];
                 $i2++;
+                $i++;
                 continue;
             }
-
             if (!isset($nums2[$i2])) {
                 $nums3[] = $nums1[$i1];
                 $i1++;
+                $i++;
                 continue;
             }
-
             if ($nums1[$i1] < $nums2[$i2]) {
                 $nums3[] = $nums1[$i1];
                 $i1++;
@@ -46,12 +46,11 @@ class Solution {
                 $nums3[] = $nums2[$i2];
                 $i2++;
             }
+            $i++;
         }
 
-        $median = isset($index[1])
+        return isset($index[1])
             ? ($nums3[$index[0]] + $nums3[$index[1]]) / 2
             : $nums3[$index[0]];
-
-        return $median;
     }
 }
