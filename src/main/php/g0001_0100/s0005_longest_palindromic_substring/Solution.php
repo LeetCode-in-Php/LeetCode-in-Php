@@ -12,31 +12,31 @@ class Solution {
      * @param String $s
      * @return String
      */
-function longestPalindrome($s): string
-{
-	if (($length = strlen($s)) <= 1) {
-		return $s;
-	}
-	if (strrev($s) === $s) {
-		return $s;
-	}
+    function longestPalindrome($s): string {
+        if (($length = strlen($s)) <= 1) {
+            return $s;
+        }
+        if (strrev($s) === $s) {
+            return $s;
+        }
 
-	$max_length = 1;
-	for ($i = 0; $i < $length; ++$i) {
-		for ($len = $max_length; $len <= $length; ++$len) {
-			$start = $i - ($len >> 1);
-			if ($start < 0 || $start + $len > $length) {
-				break;
-			}
-			$substr = substr($s, $start, $len);
-			if ($substr === strrev($substr)) {
-				$str = $substr;
-				$max_length = $len;
-			} else if ($max_length + 1 < $len) {
-				break;
-			}
-		}
-	}
+        $max_length = 1;
+        for ($i = 0; $i < $length; ++$i) {
+            for ($len = $max_length; $len <= $length; ++$len) {
+                $start = $i - ($len >> 1);
+                if ($start < 0 || $start + $len > $length) {
+                    break;
+                }
+                $substr = substr($s, $start, $len);
+                if ($substr === strrev($substr)) {
+                    $str = $substr;
+                    $max_length = $len;
+                } else if ($max_length + 1 < $len) {
+                    break;
+                }
+            }
+        }
 
-	return $str;
-}}
+        return $str;
+    }
+}

@@ -17,7 +17,7 @@ class Solution {
         $sum = count($nums1) + count($nums2);
         $med = ($sum / 2);
 
-        if($index = $sum % 2 === 0) {
+        if ($index = $sum % 2 === 0) {
             $index = [$med - 1, $med];
         } else {
             $index = [floor($med)];
@@ -25,14 +25,14 @@ class Solution {
 
         $i1 = 0;
         $i2 = 0;
-        for($i1 = 0; $i < $sum; $i++) {
-            if(!isset($nums1[$i1])){
+        for ($i1 = 0; $i < $sum; $i++) {
+            if (!isset($nums1[$i1])) {
                 $nums3[] = $nums2[$i2];
                 $i2++;
                 continue;
             }
 
-            if(!isset($nums2[$i2])){
+            if (!isset($nums2[$i2])) {
                 $nums3[] = $nums1[$i1];
                 $i1++;
                 continue;
@@ -48,8 +48,8 @@ class Solution {
         }
 
         $median = isset($index[1])
-        ? ($nums3[$index[0]] + $nums3[$index[1]]) / 2
-        : $nums3[$index[0]];
+            ? ($nums3[$index[0]] + $nums3[$index[1]]) / 2
+            : $nums3[$index[0]];
 
         return $median;
     }
