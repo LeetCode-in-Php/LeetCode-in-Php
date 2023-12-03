@@ -28,7 +28,8 @@ class Solution {
         }
         $firstMatch = ($i < strlen($s)) && ($s[$i] == $p[$j] || $p[$j] == '.');
         if (($j + 1) < strlen($p) && $p[$j + 1] == '*') {
-            $result = ($firstMatch && $this->isMatchHelper($s, $p, $i + 1, $j)) || $this->isMatchHelper($s, $p, $i, $j + 2);
+            $result = ($firstMatch && $this->isMatchHelper($s, $p, $i + 1, $j)) ||
+                $this->isMatchHelper($s, $p, $i, $j + 2);
         } else {
             $result = $firstMatch && $this->isMatchHelper($s, $p, $i + 1, $j + 1);
         }

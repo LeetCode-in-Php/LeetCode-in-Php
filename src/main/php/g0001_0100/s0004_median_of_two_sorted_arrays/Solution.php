@@ -13,16 +13,13 @@ class Solution {
      */
     function findMedianSortedArrays($nums1, $nums2) {
         $nums3 = [];
-
         $sum = count($nums1) + count($nums2);
         $med = ($sum / 2);
-
-        if ($index = $sum % 2 === 0) {
+        if ($sum % 2 === 0) {
             $index = [$med - 1, $med];
         } else {
             $index = [floor($med)];
         }
-
         $i = 0;
         $i1 = 0;
         $i2 = 0;
@@ -48,7 +45,6 @@ class Solution {
             }
             $i++;
         }
-
         return isset($index[1])
             ? ($nums3[$index[0]] + $nums3[$index[1]]) / 2
             : $nums3[$index[0]];

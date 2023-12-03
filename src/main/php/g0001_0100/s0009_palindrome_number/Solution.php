@@ -10,7 +10,9 @@ class Solution {
      * @return Boolean
      */
     function isPalindrome($x) {
-        if ($x < 0) return false;
+        if ($x < 0) {
+            return false;
+        }
         $x = (string)$x;
         $size = strlen($x);
         if ($size % 2 == 1) {
