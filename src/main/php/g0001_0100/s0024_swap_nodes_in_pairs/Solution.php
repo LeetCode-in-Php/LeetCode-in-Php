@@ -6,6 +6,8 @@ namespace leetcode\g0001_0100\s0024_swap_nodes_in_pairs;
 // #Udemy_Linked_List #Big_O_Time_O(n)_Space_O(1)
 // #2023_12_07_Time_3_ms_(85.71%)_Space_19.2_MB_(38.10%)
 
+use leetcode\com_github_leetcode\ListNode;
+
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -33,7 +35,6 @@ class Solution {
             $point1->next = $point2->next;
             $point2->next = $point1;
             $point = $point1;
-
         }
         return $output->next;
     }

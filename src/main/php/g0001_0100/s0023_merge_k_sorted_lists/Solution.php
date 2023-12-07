@@ -6,6 +6,8 @@ namespace leetcode\g0001_0100\s0023_merge_k_sorted_lists;
 // #Divide_and_Conquer #Merge_Sort #Big_O_Time_O(k*n*log(k))_Space_O(log(k))
 // #2023_12_07_Time_19_ms_(84.54%)_Space_27.4_MB_(8.25%)
 
+use leetcode\com_github_leetcode\ListNode;
+
 /**
  * Definition for a singly-linked list.
  * class ListNode {

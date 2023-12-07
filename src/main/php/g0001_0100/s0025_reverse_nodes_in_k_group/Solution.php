@@ -6,6 +6,8 @@ namespace leetcode\g0001_0100\s0025_reverse_nodes_in_k_group;
 // #Udemy_Linked_List #Big_O_Time_O(n)_Space_O(k)
 // #2023_12_07_Time_3_ms_(100.00%)_Space_20.4_MB_(68.18%)
 
+use leetcode\com_github_leetcode\ListNode;
+
 /**
  * Definition for a singly-linked list.
  * class ListNode {
@@ -45,7 +47,6 @@ class Solution {
             }
             return $prev;
         }
-
     }
 
     function countNodesInList($head) {

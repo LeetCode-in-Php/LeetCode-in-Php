@@ -17,7 +17,6 @@ namespace leetcode\g0001_0100\s0019_remove_nth_node_from_end_of_list;
  *     }
  * }
  */
-
 class Solution {
     private $n;
 
@@ -32,10 +31,8 @@ class Solution {
         if ($node->next === null) {
             return;
         }
-
         $this->removeNth($node->next);
         $this->n--;
-
         if ($this->n == 0) {
             $node->next = $node->next->next;
         }
