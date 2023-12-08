@@ -13,7 +13,7 @@ class SolutionTest extends TestCase {
         $head3 = LinkedListUtils::createSinglyLinkedList([2, 6]);
         $this->assertEquals(
             '1, 1, 2, 3, 4, 4, 5, 6',
-            (string)new Solution()->mergeKLists([$head1, $head2, $head3])
+            new Solution()->mergeKLists([$head1, $head2, $head3])
         );
     }
 
@@ -23,7 +23,7 @@ class SolutionTest extends TestCase {
         $head3 = LinkedListUtils::createSinglyLinkedList([4, 6, 9, 10]);
         $this->assertEquals(
             '1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12',
-            (string)new Solution()->mergeKLists([$head1, $head2, $head3])
+            new Solution()->mergeKLists([$head1, $head2, $head3])
         );
     }
 }
