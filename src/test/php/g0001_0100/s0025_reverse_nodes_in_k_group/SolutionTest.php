@@ -2,8 +2,8 @@
 
 namespace leetcode\g0001_0100\s0025_reverse_nodes_in_k_group;
 
-use com_github_leetcode\LinkedListUtils;
-use com_github_leetcode\ListNode;
+use leetcode\com_github_leetcode\ListNode;
+use leetcode\com_github_leetcode\LinkedListUtils;
 use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {

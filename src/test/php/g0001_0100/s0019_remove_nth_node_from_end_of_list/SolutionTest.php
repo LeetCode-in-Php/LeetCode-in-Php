@@ -2,6 +2,8 @@
 
 namespace leetcode\g0001_0100\s0019_remove_nth_node_from_end_of_list;
 
+use leetcode\com_github_leetcode\ListNode;
+use leetcode\com_github_leetcode\LinkedListUtils;
 use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {

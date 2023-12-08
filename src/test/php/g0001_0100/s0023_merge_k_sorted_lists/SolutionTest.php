@@ -2,8 +2,8 @@
 
 namespace leetcode\g0001_0100\s0023_merge_k_sorted_lists;
 
-use com_github_leetcode\LinkedListUtils;
-use com_github_leetcode\ListNode;
+use leetcode\com_github_leetcode\ListNode;
+use leetcode\com_github_leetcode\LinkedListUtils;
 use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
