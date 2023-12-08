@@ -10,10 +10,10 @@ class SolutionTest extends TestCase {
     public function testMergeTwoLists() {
         $l1 = LinkedListUtils::createSinglyLinkedList([1, 2, 4]);
         $l2 = LinkedListUtils::createSinglyLinkedList([1, 3, 4]);
-        $this->assertEquals('1, 1, 2, 3, 4, 4', (string)new Solution()->mergeTwoLists($l1, $l2));
+        $this->assertEquals('1, 1, 2, 3, 4, 4', new Solution()->mergeTwoLists($l1, $l2));
     }
 
     public function testMergeTwoLists2() {
-        $this->assertEquals('0, 0', (string)new Solution()->mergeTwoLists(new ListNode(), new ListNode()));
+        $this->assertEquals('0, 0', new Solution()->mergeTwoLists(new ListNode(), new ListNode()));
     }
 }
