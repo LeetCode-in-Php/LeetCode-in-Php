@@ -19,6 +19,7 @@ use leetcode\com_github_leetcode\ListNode;
  *     }
  * }
  */
+
 class Solution {
     private $n;
 

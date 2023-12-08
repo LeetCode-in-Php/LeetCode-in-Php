@@ -2,8 +2,8 @@
 
 namespace leetcode\g0001_0100\s0024_swap_nodes_in_pairs;
 
-use leetcode\com_github_leetcode\ListNode;
 use leetcode\com_github_leetcode\LinkedListUtils;
+use leetcode\com_github_leetcode\ListNode;
 use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
