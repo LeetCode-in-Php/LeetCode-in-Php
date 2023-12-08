@@ -6,7 +6,8 @@ use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testGenerateParenthesis() {
-        $this->assertEquals(['((()))', '(()())', '(())()', '()(())', '()()()'], (new Solution())->generateParenthesis(3));
+        $this->assertEquals(['((()))', '(()())', '(())()', '()(())', '()()()'],
+            (new Solution())->generateParenthesis(3));
     }
 
     public function testGenerateParenthesis2() {
