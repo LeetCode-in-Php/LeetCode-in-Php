@@ -9,10 +9,10 @@ use PHPUnit\Framework\TestCase;
 class SolutionTest extends TestCase {
     public function testSwapPairs() {
         $head = LinkedListUtils::createSinglyLinkedList([1, 2, 3, 4]);
-        $this->assertEquals('2, 1, 4, 3', (new Solution())->swapPairs($head));
+        $this->assertEquals('2, 1, 4, 3', (new Solution())->swapPairs($head).toString());
     }
 
     public function testSwapPairs2() {
-        $this->assertEquals('1', (new Solution())->swapPairs(new ListNode(1)));
+        $this->assertEquals('1', (new Solution())->swapPairs(new ListNode(1)).toString());
     }
 }
