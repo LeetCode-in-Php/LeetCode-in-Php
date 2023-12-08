@@ -2,21 +2,18 @@
 
 namespace leetcode\g0001_0100\s0021_merge_two_sorted_lists;
 
-use PHPUnit\Framework\TestCase;
 use com_github_leetcode\LinkedListUtils;
 use com_github_leetcode\ListNode;
+use PHPUnit\Framework\TestCase;
 
-class SolutionTest extends TestCase
-{
-    public function testMergeTwoLists()
-    {
+class SolutionTest extends TestCase {
+    public function testMergeTwoLists() {
         $l1 = LinkedListUtils::createSinglyLinkedList([1, 2, 4]);
         $l2 = LinkedListUtils::createSinglyLinkedList([1, 3, 4]);
-        $this->assertEquals('1, 1, 2, 3, 4, 4', (string) new Solution()->mergeTwoLists($l1, $l2));
+        $this->assertEquals('1, 1, 2, 3, 4, 4', (string)new Solution()->mergeTwoLists($l1, $l2));
     }
 
-    public function testMergeTwoLists2()
-    {
-        $this->assertEquals('0, 0', (string) new Solution()->mergeTwoLists(new ListNode(), new ListNode()));
+    public function testMergeTwoLists2() {
+        $this->assertEquals('0, 0', (string)new Solution()->mergeTwoLists(new ListNode(), new ListNode()));
     }
 }
