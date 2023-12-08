@@ -25,7 +25,7 @@ class Solution {
      * @return ListNode
      */
     function mergeKLists($lists) {
-        $heap = new SplMinHeap();
+        $heap = new \SplMinHeap();
         $head = [];
         foreach ($lists as $list) {
             $head = $list;
