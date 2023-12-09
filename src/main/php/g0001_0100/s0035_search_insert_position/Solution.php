@@ -19,9 +19,9 @@ class Solution {
             $mid = $lo + intval(($hi - $lo) / 2);
             if ($target == $nums[$mid]) {
                 return $mid;
-            } else if ($target < $nums[$mid]) {
+            } elseif ($target < $nums[$mid]) {
                 $hi = $mid - 1;
-            } else if ($target > $nums[$mid]) {
+            } elseif ($target > $nums[$mid]) {
                 $lo = $mid + 1;
             }
         }

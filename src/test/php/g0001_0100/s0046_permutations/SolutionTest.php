@@ -6,7 +6,8 @@ use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testPermute() {
-        $expected = array(array(1, 2, 3), array(1, 3, 2), array(2, 1, 3), array(2, 3, 1), array(3, 1, 2), array(3, 2, 1));
+        $expected = array(array(1, 2, 3), array(1, 3, 2), array(2, 1, 3), array(2, 3, 1),
+            array(3, 1, 2), array(3, 2, 1));
         $this->assertEquals($expected, (new Solution())->permute(array(1, 2, 3)));
     }
 
@@ -20,5 +21,3 @@ class SolutionTest extends TestCase {
         $this->assertEquals($expected, (new Solution())->permute(array(1)));
     }
 }
-
-?>
