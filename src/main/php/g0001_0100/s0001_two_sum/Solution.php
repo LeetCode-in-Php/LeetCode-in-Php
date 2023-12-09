@@ -12,7 +12,7 @@ class Solution {
      * @param Integer $target
      * @return Integer[]
      */
-    function twoSum($nums, $target) {
+    public function twoSum($nums, $target) {
         $ind = [];
         for ($i = 0; $i < count($nums); ++$i) {
             $complement = $target - $nums[$i];

@@ -23,6 +23,11 @@ use leetcode\com_github_leetcode\ListNode;
 class Solution {
     private $n;
 
+    /**
+     * @param ListNode $head
+     * @param Integer $n
+     * @return ListNode
+     */
     public function removeNthFromEnd($head, $n) {
         $this->n = $n;
         $node = new ListNode(0, $head);

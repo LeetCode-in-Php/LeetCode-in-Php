@@ -9,7 +9,7 @@ class Solution {
      * @param String $s
      * @return Integer
      */
-    function myAtoi($s) {
+    public function myAtoi($s) {
         $pos = 0;
         $res = 0;
         for ($i = 0; $i < strlen($s); $i++) {

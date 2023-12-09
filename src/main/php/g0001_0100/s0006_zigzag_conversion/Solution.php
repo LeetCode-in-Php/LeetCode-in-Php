@@ -10,7 +10,7 @@ class Solution {
      * @param Integer $numRows
      * @return String
      */
-    function convert($s, $numRows) {
+    public function convert($s, $numRows) {
         if ($numRows == 1) {
             return $s;
         }

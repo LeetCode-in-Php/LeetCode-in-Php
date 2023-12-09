@@ -11,7 +11,7 @@ class Solution {
      * @param Integer[] $nums2
      * @return Float
      */
-    function findMedianSortedArrays($nums1, $nums2) {
+    public function findMedianSortedArrays($nums1, $nums2) {
         $nums3 = [];
         $sum = count($nums1) + count($nums2);
         $med = ($sum / 2);

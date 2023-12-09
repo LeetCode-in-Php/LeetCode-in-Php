@@ -11,13 +11,13 @@ class Solution {
      * @param Integer $n
      * @return String[]
      */
-    function generateParenthesis(int $n): array {
+    public function generateParenthesis(int $n): array {
         $sb = '';
         $ans = [];
         return $this->generate($sb, $ans, $n, $n);
     }
 
-    function generate(string &$sb, array &$ans, int $open, int $close): array {
+    private function generate(string &$sb, array &$ans, int $open, int $close): array {
         if ($open === 0 && $close === 0) {
             $ans[] = $sb;
             return $ans;

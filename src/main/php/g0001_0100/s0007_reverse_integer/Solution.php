@@ -6,7 +6,11 @@ namespace leetcode\g0001_0100\s0007_reverse_integer;
 // #2023_12_03_Time_3_ms_(90.99%)_Space_19.2_MB_(44.23%)
 
 class Solution {
-    function reverse($x) {
+    /**
+     * @param Integer $x
+     * @return Integer
+     */
+    public function reverse($x) {
         $ls_negative = '';
         if (strpos($x, '-') === 0) {
             $ls_negative = substr($x, 0, 1);

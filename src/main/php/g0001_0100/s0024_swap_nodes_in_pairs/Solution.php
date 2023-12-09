@@ -24,7 +24,7 @@ class Solution {
      * @param ListNode $head
      * @return ListNode
      */
-    function swapPairs($head) {
+    public function swapPairs($head) {
         $output = new ListNode(0);
         $output->next = $head;
         $point = $output;

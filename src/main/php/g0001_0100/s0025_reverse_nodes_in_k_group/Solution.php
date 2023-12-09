@@ -25,7 +25,7 @@ class Solution {
      * @param Integer $k
      * @return ListNode
      */
-    function reverseKGroup($head, $k) {
+    public function reverseKGroup($head, $k) {
         if ($this->countNodesInList($head) < $k || $head->next == null || $head == null) {
             return $head;
         } else {
