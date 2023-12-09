@@ -12,7 +12,7 @@ class Solution {
      * @param String $s
      * @return String
      */
-    function longestPalindrome($s): string {
+    public function longestPalindrome($s): string {
         if (($length = strlen($s)) <= 1) {
             return $s;
         }

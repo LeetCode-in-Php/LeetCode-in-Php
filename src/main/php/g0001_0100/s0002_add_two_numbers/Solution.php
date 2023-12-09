@@ -25,7 +25,7 @@ class Solution {
      * @param ListNode $l2
      * @return ListNode
      */
-    function addTwoNumbers($l1, $l2) {
+    public function addTwoNumbers($l1, $l2) {
         $dummyHead = new ListNode(0);
         $p = $l1;
         $q = $l2;
