@@ -2,8 +2,8 @@
 
 namespace leetcode\g0001_0100\s0094_binary_tree_inorder_traversal;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\com_github_leetcode\TreeNode;
+use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testInorderTraversal() {
