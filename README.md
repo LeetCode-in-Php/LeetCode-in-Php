@@ -297,7 +297,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | O(n^2 | O(n^2) Space O(n2)
+| 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 29 | 75.00
 
 #### Day 20
 
@@ -875,7 +875,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0070 |[Climbing Stairs](src/main/php/g0001_0100/s0070_climbing_stairs/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 3 | 82.81
 | 0064 |[Minimum Path Sum](src/main/php/g0001_0100/s0064_minimum_path_sum/Solution.php)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 20 | 81.48
-| 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | O(n^2 | O(n^2) Space O(n2)
+| 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 29 | 75.00
 | 0010 |[Regular Expression Matching](src/main/php/g0001_0100/s0010_regular_expression_matching/Solution.php)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Recursion, Big_O_Time_O(m\*n)_Space_O(m\*n) | 10 | 64.52
 
 #### Udemy Backtracking/Recursion
@@ -1268,7 +1268,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming | O(n^2 | O(n^2) Space O(n2)
+| 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 29 | 75.00
 
 #### Day 19 Bit Manipulation
 
@@ -1289,7 +1289,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
-| 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming | O(n^2 | O(n^2) Space O(n2)
+| 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_19, Udemy_Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 29 | 75.00
 | 0070 |[Climbing Stairs](src/main/php/g0001_0100/s0070_climbing_stairs/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Algorithm_I_Day_12_Dynamic_Programming, Dynamic_Programming_I_Day_2, Level_1_Day_10_Dynamic_Programming, Udemy_Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 3 | 82.81
 | 0064 |[Minimum Path Sum](src/main/php/g0001_0100/s0064_minimum_path_sum/Solution.php)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Dynamic_Programming_I_Day_16, Udemy_Dynamic_Programming, Big_O_Time_O(m\*n)_Space_O(m\*n) | 20 | 81.48
 | 0062 |[Unique Paths](src/main/php/g0001_0100/s0062_unique_paths/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Combinatorics, Algorithm_II_Day_13_Dynamic_Programming, Dynamic_Programming_I_Day_15, Level_1_Day_11_Dynamic_Programming, Big_O_Time_O(m\*n)_Space_O(m\*n) | 3 | 81.58
