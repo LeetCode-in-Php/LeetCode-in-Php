@@ -17,7 +17,7 @@ class Solution {
         for ($i = 0; $i < count($nums); $i++) {
             if ($nums[$i] == 0) {
                 $nums[$zeroes++] = 0;
-            } else if ($nums[$i] == 1) {
+            } elseif ($nums[$i] == 1) {
                 $ones++;
             }
         }

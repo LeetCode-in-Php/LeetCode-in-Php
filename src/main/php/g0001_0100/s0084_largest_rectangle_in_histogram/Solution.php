@@ -15,7 +15,7 @@ class Solution {
     }
 
     private function largestArea($a, $start, $limit) {
-        if ($a == null || count($a) == 0) {
+        if ($a == null || empty($a)) {
             return 0;
         }
         if ($start == $limit) {
