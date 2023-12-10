@@ -12,7 +12,7 @@ class SolutionTest extends TestCase {
         $treeNode->right = $treeNode2;
         $treeNode2->left = new TreeNode(3);
         $solution = new Solution();
-        $this->assertEquals("[1, 3, 2]", json_encode($solution->inorderTraversal($treeNode)));
+        $this->assertEquals("[1,3,2]", json_encode($solution->inorderTraversal($treeNode)));
     }
 
     public function testInorderTraversal2() {

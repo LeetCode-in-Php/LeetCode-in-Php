@@ -4,7 +4,7 @@ namespace leetcode\g0001_0100\s0079_word_search;
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Matrix #Backtracking
 // #Algorithm_II_Day_11_Recursion_Backtracking #Big_O_Time_O(4^(m*n))_Space_O(m*n)
-// #2023_12_10_Time_697_ms_(100.00%)_Space_19.5_MB_(7.69%)
+// #2023_12_10_Time_599_ms_(100.00%)_Space_19_MB_(79.49%)
 
 class Solution {
     /**
@@ -56,7 +56,6 @@ class Solution {
         } elseif ($index === strlen($word) - 1) {
             return true;
         }
-        $temp = $board[$x][$y];
         $board[$x][$y] = '-1';
         $dirs = [[0, 1], [0, -1], [1, 0], [-1, 0]];
         foreach ($dirs as $dir) {
@@ -66,7 +65,6 @@ class Solution {
                 return true;
             }
         }
-        $board[$x][$y] = $temp;
         return false;
     }
 }
