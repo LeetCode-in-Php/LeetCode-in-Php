@@ -12,8 +12,12 @@ class Solution {
      * @return Integer
      */
     public function minPathSum($a) {
-        for ($i = 1; $i < count($a); $i++) $a[$i][0] += $a[$i - 1][0];
-        for ($j = 1; $j < count($a[0]); $j++) $a[0][$j] += $a[0][$j - 1];
+        for ($i = 1; $i < count($a); $i++) {
+            $a[$i][0] += $a[$i - 1][0];
+        }
+        for ($j = 1; $j < count($a[0]); $j++) {
+            $a[0][$j] += $a[0][$j - 1];
+        }
         for ($i = 1; $i < count($a); $i++) {
             for ($j = 1; $j < count($a[0]); $j++) {
                 $a[$i][$j] += min($a[$i - 1][$j], $a[$i][$j - 1]);

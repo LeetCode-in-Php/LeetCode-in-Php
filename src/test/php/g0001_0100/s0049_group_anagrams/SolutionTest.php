@@ -6,7 +6,7 @@ use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testGroupAnagrams() {
-        $expected = array(array("eat", "tea", "ate"), array("bat"), array("tan", "nat"));
+        $expected = array(array("eat", "tea", "ate"), array("tan", "nat"), array("bat"));
         $input = array("eat", "tea", "tan", "ate", "nat", "bat");
         $solution = new Solution();
         $actual = $solution->groupAnagrams($input);
