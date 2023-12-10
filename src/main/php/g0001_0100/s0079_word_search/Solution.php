@@ -56,7 +56,7 @@ class Solution {
         } elseif ($index === strlen($word) - 1) {
             return true;
         }
-        $tem = $board[$x][$y];
+        $temp = $board[$x][$y];
         $board[$x][$y] = '-1';
         $dirs = [[0, 1], [0, -1], [1, 0], [-1, 0]];
         foreach ($dirs as $dir) {
