@@ -8,7 +8,7 @@ use PHPUnit\Framework\TestCase;
 class SolutionTest extends TestCase {
     public function testLevelOrder() {
         $root = TreeUtils::constructBinaryTree(array(3, 9, 20, null, null, 15, 7));
-        $this->assertEqual(array(array(3), array(9, 20), array(15, 7)),
+        $this->assertEquals(array(array(3), array(9, 20), array(15, 7)),
             (new Solution())->levelOrder($root));
     }
 
