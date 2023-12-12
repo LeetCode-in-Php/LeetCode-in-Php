@@ -33,7 +33,7 @@ class Solution {
     private function findTail($root) {
         $left = $root->left;
         $right = $root->right;
-        $tail;
+        $tail = null;
         // find the tail of left subtree, tail means the most left leaf
         if ($left != null) {
             $tail = $this->findTail($left);

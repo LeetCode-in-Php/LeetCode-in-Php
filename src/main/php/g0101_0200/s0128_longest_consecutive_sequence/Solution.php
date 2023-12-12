@@ -11,7 +11,7 @@ class Solution {
      * @return Integer
      */
     function longestConsecutive($nums) {
-        if (count($nums) == 0) {
+        if (empty($nums)) {
             return 0;
         }
         sort($nums);
