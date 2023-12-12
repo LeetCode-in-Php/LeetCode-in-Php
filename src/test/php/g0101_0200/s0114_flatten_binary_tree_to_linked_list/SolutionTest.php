@@ -9,12 +9,12 @@ class SolutionTest extends TestCase {
     public function testFlatten() {
         $root = TreeUtils::constructBinaryTree(array(1, 2, 5, 3, 4, null, 6));
         (new Solution())->flatten($root);
-        $this->assertEquals("1,null,2,null,3,null,4,null,5,null,6", $root->toString());
+        $this->assertEquals("1,null,2,null,3,null,4,null,5,null,6", $root);
     }
 
     public function testFlatten2() {
         $root = TreeUtils::constructBinaryTree(array(0));
         (new Solution())->flatten($root);
-        $this->assertEquals("0", $root->toString());
+        $this->assertEquals("0", $root);
     }
 }
