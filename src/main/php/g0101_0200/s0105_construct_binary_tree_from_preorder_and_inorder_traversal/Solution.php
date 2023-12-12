@@ -6,6 +6,8 @@ namespace leetcode\g0101_0200\s0105_construct_binary_tree_from_preorder_and_inor
 // #Divide_and_Conquer #Data_Structure_II_Day_15_Tree #Big_O_Time_O(N)_Space_O(N)
 // #2023_12_11_Time_14_ms_(63.33%)_Space_21.1_MB_(93.33%)
 
+use leetcode\com_github_leetcode\TreeNode;
+
 /**
  * Definition for a binary tree node.
  * class TreeNode {
