@@ -29,7 +29,7 @@ class Solution {
         if ($root == null) {
             return $result;
         }
-        $queue = new SplQueue();
+        $queue = new \SplQueue();
         $queue->enqueue($root);
         $queue->enqueue(null);
         $level = array();
