@@ -2,6 +2,8 @@
 
 namespace leetcode\com_github_leetcode;
 
+use leetcode\com_github_leetcode\TreeNode;
+
 class TreeUtils {
     /*
     * This method is to construct a normal binary tree. The input reads like
