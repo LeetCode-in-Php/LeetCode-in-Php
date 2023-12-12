@@ -9,13 +9,13 @@ class SolutionTest extends TestCase {
         $preorder = array(3, 9, 20, 15, 7);
         $inorder = array(9, 3, 15, 20, 7);
         $actual = (new Solution())->buildTree($preorder, $inorder);
-        $this->assertEquals("3,9,20,15,7", $actual->toString());
+        $this->assertEquals("3,9,20,15,7", $actual);
     }
 
     public function testConstructBinaryTree2() {
         $preorder = array(-1);
         $inorder = array(-1);
         $actual = (new Solution())->buildTree($preorder, $inorder);
-        $this->assertEquals("-1", $actual->toString());
+        $this->assertEquals("-1", $actual);
     }
 }
