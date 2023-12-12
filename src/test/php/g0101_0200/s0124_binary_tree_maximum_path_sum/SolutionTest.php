@@ -3,6 +3,7 @@
 namespace leetcode\g0101_0200\s0124_binary_tree_maximum_path_sum;
 
 use PHPUnit\Framework\TestCase;
+use leetcode\com_github_leetcode\TreeNode;
 
 class SolutionTest extends TestCase {
     public function testMaxPathSum() {
