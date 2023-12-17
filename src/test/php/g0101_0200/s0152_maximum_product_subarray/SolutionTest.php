@@ -6,10 +6,10 @@ use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testMaxProduct() {
-        $this->assertEquals((new Solution())->maxProduct(array(2, 3, -2, 4)), 6);
+        $this->assertEquals(6, (new Solution())->maxProduct(array(2, 3, -2, 4)));
     }
 
     public function testMaxProduct2() {
-        $this->assertEquals((new Solution())->maxProduct(array(-2, 0, -1)), 0);
+        $this->assertEquals(0, (new Solution())->maxProduct(array(-2, 0, -1)));
     }
 }

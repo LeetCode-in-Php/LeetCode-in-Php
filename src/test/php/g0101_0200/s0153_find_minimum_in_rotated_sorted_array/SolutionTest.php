@@ -6,14 +6,14 @@ use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testFindMin() {
-        $this->assertEquals((new Solution())->findMin(array(3, 4, 5, 1, 2)), 1);
+        $this->assertEquals(1, (new Solution())->findMin(array(3, 4, 5, 1, 2)));
     }
 
     public function testFindMin2() {
-        $this->assertEquals((new Solution())->findMin(array(4, 5, 6, 7, 0, 1, 2)), 0);
+        $this->assertEquals(0, (new Solution())->findMin(array(4, 5, 6, 7, 0, 1, 2)));
     }
 
     public function testFindMin3() {
-        $this->assertEquals((new Solution())->findMin(array(11, 13, 15, 17)), 11);
+        $this->assertEquals(11, (new Solution())->findMin(array(11, 13, 15, 17)));
     }
 }

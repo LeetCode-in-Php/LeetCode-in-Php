@@ -6,14 +6,14 @@ use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testWordBreak() {
-        $this->assertEquals((new Solution())->wordBreak("leetcode", array("leet", "code")), true);
+        $this->assertEquals(true, (new Solution())->wordBreak("leetcode", array("leet", "code")));
     }
 
     public function testWordBreak2() {
-        $this->assertEquals((new Solution())->wordBreak("applepenapple", array("apple", "pen")), true);
+        $this->assertEquals(true, (new Solution())->wordBreak("applepenapple", array("apple", "pen")));
     }
 
     public function testWordBreak3() {
-        $this->assertEquals((new Solution())->wordBreak("catsandog", array("cats", "dog", "sand", "and", "cat")), false);
+        $this->assertEquals(false, (new Solution())->wordBreak("catsandog", array("cats", "dog", "sand", "and", "cat")));
     }
 }
