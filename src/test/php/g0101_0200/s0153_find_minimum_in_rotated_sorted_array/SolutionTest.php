@@ -2,6 +2,8 @@
 
 namespace leetcode\g0101_0200\s0153_find_minimum_in_rotated_sorted_array;
 
+use PHPUnit\Framework\TestCase;
+
 class SolutionTest extends TestCase {
     public function testFindMin() {
         $this->assertEquals((new Solution())->findMin(array(3, 4, 5, 1, 2)), 1);
