@@ -91,6 +91,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/php/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/Solution.php)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 9 | 73.47
 
 ### Binary Search II
 
@@ -229,6 +230,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0152 |[Maximum Product Subarray](src/main/php/g0101_0200/s0152_maximum_product_subarray/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 15 | 92.86
 
 #### Day 7
 
@@ -245,6 +247,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0139 |[Word Break](src/main/php/g0101_0200/s0139_word_break/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 7 | 75.00
 | 0042 |[Trapping Rain Water](src/main/php/g0001_0100/s0042_trapping_rain_water/Solution.php)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(1) | 29 | 69.15
 
 #### Day 10
@@ -448,6 +451,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0138 |[Copy List with Random Pointer](src/main/php/g0101_0200/s0138_copy_list_with_random_pointer/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 2300 | 60.00
 
 #### Day 15
 
@@ -469,6 +473,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0155 |[Min Stack](src/main/php/g0101_0200/s0155_min_stack/MinStack.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 19 | 100.00
 
 #### Day 19
 
@@ -626,6 +631,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0142 |[Linked List Cycle II](src/main/php/g0101_0200/s0142_linked_list_cycle_ii/Solution.php)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 7 | 100.00
 
 #### Day 5 Greedy
 
@@ -710,6 +716,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0148 |[Sort List](src/main/php/g0101_0200/s0148_sort_list/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Big_O_Time_O(log(N))_Space_O(log(N)) | 63 | 97.30
 
 #### Day 5 Greedy
 
@@ -757,6 +764,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0152 |[Maximum Product Subarray](src/main/php/g0101_0200/s0152_maximum_product_subarray/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 15 | 92.86
 
 #### Day 14 Sliding Window/Two Pointer
 
@@ -775,6 +783,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0155 |[Min Stack](src/main/php/g0101_0200/s0155_min_stack/MinStack.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 19 | 100.00
 
 #### Day 17 Interval
 
@@ -823,6 +832,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0033 |[Search in Rotated Sorted Array](src/main/php/g0001_0100/s0033_search_in_rotated_sorted_array/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Big_O_Time_O(log_n)_Space_O(1) | 7 | 83.17
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/php/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/Solution.php)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 9 | 73.47
 
 #### Udemy Arrays
 
@@ -867,8 +877,13 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0114 |[Flatten Binary Tree to Linked List](src/main/php/g0101_0200/s0114_flatten_binary_tree_to_linked_list/Solution.php)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Linked_List, Big_O_Time_O(N)_Space_O(N) | 3 | 100.00
 | 0024 |[Swap Nodes in Pairs](src/main/php/g0001_0100/s0024_swap_nodes_in_pairs/Solution.php)| Medium | Top_100_Liked_Questions, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(1) | 3 | 85.71
+| 0142 |[Linked List Cycle II](src/main/php/g0101_0200/s0142_linked_list_cycle_ii/Solution.php)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 7 | 100.00
+| 0141 |[Linked List Cycle](src/main/php/g0101_0200/s0141_linked_list_cycle/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 8 | 90.60
 | 0021 |[Merge Two Sorted Lists](src/main/php/g0001_0100/s0021_merge_two_sorted_lists/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 3 | 90.57
+| 0160 |[Intersection of Two Linked Lists](src/main/php/g0101_0200/s0160_intersection_of_two_linked_lists/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 30 | 81.67
+| 0138 |[Copy List with Random Pointer](src/main/php/g0101_0200/s0138_copy_list_with_random_pointer/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Big_O_Time_O(N)_Space_O(N) | 2300 | 60.00
 | 0025 |[Reverse Nodes in k-Group](src/main/php/g0001_0100/s0025_reverse_nodes_in_k_group/Solution.php)| Hard | Top_100_Liked_Questions, Linked_List, Recursion, Big_O_Time_O(n)_Space_O(k) | 3 | 100.00
+| 0146 |[LRU Cache](src/main/php/g0101_0200/s0146_lru_cache/LRUCache.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 402 | 41.18
 
 #### Udemy Tree Stack Queue
 
@@ -894,6 +909,8 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0139 |[Word Break](src/main/php/g0101_0200/s0139_word_break/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 7 | 75.00
+| 0152 |[Maximum Product Subarray](src/main/php/g0101_0200/s0152_maximum_product_subarray/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 15 | 92.86
 | 0070 |[Climbing Stairs](src/main/php/g0001_0100/s0070_climbing_stairs/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Math, Memoization, Big_O_Time_O(n)_Space_O(n) | 3 | 82.81
 | 0064 |[Minimum Path Sum](src/main/php/g0001_0100/s0064_minimum_path_sum/Solution.php)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Matrix, Big_O_Time_O(m\*n)_Space_O(m\*n) | 20 | 81.48
 | 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 29 | 75.00
@@ -918,6 +935,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0155 |[Min Stack](src/main/php/g0101_0200/s0155_min_stack/MinStack.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 19 | 100.00
 
 ### Data Structure I
 
@@ -959,6 +977,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0141 |[Linked List Cycle](src/main/php/g0101_0200/s0141_linked_list_cycle/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 8 | 90.60
 | 0021 |[Merge Two Sorted Lists](src/main/php/g0001_0100/s0021_merge_two_sorted_lists/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Linked_List, Recursion, Big_O_Time_O(m+n)_Space_O(m+n) | 3 | 90.57
 
 #### Day 8 Linked List
@@ -1061,11 +1080,13 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0002 |[Add Two Numbers](src/main/php/g0001_0100/s0002_add_two_numbers/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Math, Linked_List, Recursion, Big_O_Time_O(max(N,M))_Space_O(max(N,M)) | 13 | 73.83
+| 0142 |[Linked List Cycle II](src/main/php/g0101_0200/s0142_linked_list_cycle_ii/Solution.php)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(N)_Space_O(1) | 7 | 100.00
 
 #### Day 11 Linked List
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0160 |[Intersection of Two Linked Lists](src/main/php/g0101_0200/s0160_intersection_of_two_linked_lists/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 30 | 81.67
 
 #### Day 12 Linked List
 
@@ -1083,6 +1104,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0155 |[Min Stack](src/main/php/g0101_0200/s0155_min_stack/MinStack.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Big_O_Time_O(1)_Space_O(N) | 19 | 100.00
 
 #### Day 15 Tree
 
@@ -1213,6 +1235,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/php/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/Solution.php)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 9 | 73.47
 
 #### Day 3 Two Pointers
 
@@ -1289,6 +1312,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0139 |[Word Break](src/main/php/g0101_0200/s0139_word_break/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 7 | 75.00
 
 #### Day 16 Dynamic Programming
 
@@ -1325,6 +1349,16 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 0160 |[Intersection of Two Linked Lists](src/main/php/g0101_0200/s0160_intersection_of_two_linked_lists/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_11_Linked_List, Udemy_Linked_List, Big_O_Time_O(M+N)_Space_O(1) | 30 | 81.67
+| 0155 |[Min Stack](src/main/php/g0101_0200/s0155_min_stack/MinStack.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Stack, Design, Data_Structure_II_Day_14_Stack_Queue, Programming_Skills_II_Day_18, Level_2_Day_16_Design, Udemy_Design, Big_O_Time_O(1)_Space_O(N) | 19 | 100.00
+| 0153 |[Find Minimum in Rotated Sorted Array](src/main/php/g0101_0200/s0153_find_minimum_in_rotated_sorted_array/Solution.php)| Medium | Top_100_Liked_Questions, Array, Binary_Search, Algorithm_II_Day_2_Binary_Search, Binary_Search_I_Day_12, Udemy_Binary_Search, Big_O_Time_O(log_N)_Space_O(log_N) | 9 | 73.47
+| 0152 |[Maximum Product Subarray](src/main/php/g0101_0200/s0152_maximum_product_subarray/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Dynamic_Programming_I_Day_6, Level_2_Day_13_Dynamic_Programming, Udemy_Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 15 | 92.86
+| 0148 |[Sort List](src/main/php/g0101_0200/s0148_sort_list/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Linked_List, Divide_and_Conquer, Merge_Sort, Level_2_Day_4_Linked_List, Big_O_Time_O(log(N))_Space_O(log(N)) | 63 | 97.30
+| 0146 |[LRU Cache](src/main/php/g0101_0200/s0146_lru_cache/LRUCache.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Design, Linked_List, Doubly_Linked_List, Udemy_Linked_List, Big_O_Time_O(1)_Space_O(capacity) | 402 | 41.18
+| 0142 |[Linked List Cycle II](src/main/php/g0101_0200/s0142_linked_list_cycle_ii/Solution.php)| Medium | Top_100_Liked_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_II_Day_10_Linked_List, Level_1_Day_4_Linked_List, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(1) | 7 | 100.00
+| 0141 |[Linked List Cycle](src/main/php/g0101_0200/s0141_linked_list_cycle/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Two_Pointers, Linked_List, Data_Structure_I_Day_7_Linked_List, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(1) | 8 | 90.60
+| 0139 |[Word Break](src/main/php/g0101_0200/s0139_word_break/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Dynamic_Programming, Trie, Memoization, Algorithm_II_Day_15_Dynamic_Programming, Dynamic_Programming_I_Day_9, Udemy_Dynamic_Programming, Big_O_Time_O(M+max\*N)_Space_O(M+N+max) | 7 | 75.00
+| 0138 |[Copy List with Random Pointer](src/main/php/g0101_0200/s0138_copy_list_with_random_pointer/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Hash_Table, Linked_List, Programming_Skills_II_Day_14, Udemy_Linked_List, Big_O_Time_O(N)_Space_O(N) | 2300 | 60.00
 | 0136 |[Single Number](src/main/php/g0101_0200/s0136_single_number/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Data_Structure_II_Day_1_Array, Algorithm_I_Day_14_Bit_Manipulation, Udemy_Integers, Big_O_Time_O(N)_Space_O(1) | 33 | 80.08
 | 0131 |[Palindrome Partitioning](src/main/php/g0101_0200/s0131_palindrome_partitioning/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Backtracking, Big_O_Time_O(N\*2^N)_Space_O(2^N\*N) | 159 | 61.90
 | 0128 |[Longest Consecutive Sequence](src/main/php/g0101_0200/s0128_longest_consecutive_sequence/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Union_Find, Big_O_Time_O(N_log_N)_Space_O(1) | 154 | 75.61
