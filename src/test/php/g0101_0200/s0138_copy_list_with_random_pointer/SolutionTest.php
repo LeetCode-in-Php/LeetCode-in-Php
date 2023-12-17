@@ -22,8 +22,7 @@ class SolutionTest extends TestCase {
         $node11->random = $node1;
         $node10->random = $node11;
         $node1->random = $node7;
-        $this->assertEquals("[[7,null],[13,0],[11,4],[10,2],[1,0]]",
-            (new Solution())->copyRandomList($node7)->toString());
+        $this->assertEquals("[[7,null],[13,0],[11,4],[10,2],[1,0]]", (new Solution())->copyRandomList($node7));
     }
 
     public function testCopyRandomList2() {
@@ -33,7 +32,7 @@ class SolutionTest extends TestCase {
         $node1->random = $node1;
         $node2->next = null;
         $node2->random = $node2;
-        $this->assertEquals("[[1,1],[2,1]]", (new Solution())->copyRandomList($node1)->toString());
+        $this->assertEquals("[[1,1],[2,1]]", (new Solution())->copyRandomList($node1));
     }
 
     public function testCopyRandomList3() {
@@ -46,7 +45,6 @@ class SolutionTest extends TestCase {
         $node32->random = $node31;
         $node33->next = null;
         $node33->random = null;
-        $this->assertEquals("[[3,null],[3,0],[3,null]]",
-            (new Solution())->copyRandomList($node31)->toString());
+        $this->assertEquals("[[3,null],[3,0],[3,null]]", (new Solution())->copyRandomList($node31));
     }
 }
