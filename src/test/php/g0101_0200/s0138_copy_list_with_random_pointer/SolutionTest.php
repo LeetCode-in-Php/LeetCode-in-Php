@@ -2,8 +2,8 @@
 
 namespace leetcode\g0101_0200\s0138_copy_list_with_random_pointer;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\com_github_leetcode\random\Node;
+use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testCopyRandomList() {

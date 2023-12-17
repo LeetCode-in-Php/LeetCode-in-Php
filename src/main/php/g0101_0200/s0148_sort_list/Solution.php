@@ -22,20 +22,20 @@ class Solution {
      * @param ListNode $head
      * @return ListNode
      */
-    public function sortList($head) {    
+    public function sortList($head) {
         $sortArray = [];
         $sortedHead = $head;
-        while(!is_null($sortedHead)){
-          $sortArray[] = $sortedHead->val;
-          $sortedHead = $sortedHead->next;
-        }      
+        while (!is_null($sortedHead)) {
+            $sortArray[] = $sortedHead->val;
+            $sortedHead = $sortedHead->next;
+        }
         unset($sortedHead);
-        sort($sortArray);        
-        $newHead = $head;     
-        for ($i =0; $i < count($sortArray); $i++){
-             $newHead->val = $sortArray[$i];
-             $newHead = $newHead->next;
-         }
+        sort($sortArray);
+        $newHead = $head;
+        for ($i = 0; $i < count($sortArray); $i++) {
+            $newHead->val = $sortArray[$i];
+            $newHead = $newHead->next;
+        }
         unset($newHead);
         return $head;
     }

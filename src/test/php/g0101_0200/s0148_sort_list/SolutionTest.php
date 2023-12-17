@@ -2,8 +2,8 @@
 
 namespace leetcode\g0101_0200\s0148_sort_list;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\com_github_leetcode\ListNode;
+use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testSortList() {

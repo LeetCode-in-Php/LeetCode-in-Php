@@ -2,8 +2,8 @@
 
 namespace leetcode\g0101_0200\s0160_intersection_of_two_linked_lists;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\com_github_leetcode\ListNode;
+use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testGetIntersectionNode() {

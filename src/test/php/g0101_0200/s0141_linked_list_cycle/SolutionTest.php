@@ -2,8 +2,8 @@
 
 namespace leetcode\g0101_0200\s0141_linked_list_cycle;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\com_github_leetcode\ListNode;
+use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testHasCycle() {
