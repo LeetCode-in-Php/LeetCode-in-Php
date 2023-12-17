@@ -30,7 +30,7 @@ class Solution {
         }
         if ($nums[$mid] < $nums[$l]) {
             return $this->findMinUtil($nums, $l, $mid - 1);
-        } else if ($nums[$mid] > $nums[$r]) {
+        } elseif ($nums[$mid] > $nums[$r]) {
             return $this->findMinUtil($nums, $mid + 1, $r);
         }
         return $this->findMinUtil($nums, $l, $mid - 1);

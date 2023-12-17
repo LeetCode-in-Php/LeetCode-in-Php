@@ -14,6 +14,7 @@ class SolutionTest extends TestCase {
     }
 
     public function testWordBreak3() {
-        $this->assertEquals(false, (new Solution())->wordBreak("catsandog", array("cats", "dog", "sand", "and", "cat")));
+        $this->assertEquals(false,
+            (new Solution())->wordBreak("catsandog", array("cats", "dog", "sand", "and", "cat")));
     }
 }

@@ -11,11 +11,11 @@ class MinStackTest extends TestCase {
         $minStack->push(0);
         $minStack->push(-3);
         // return -3
-        $this->assertEquals($minStack->getMin(), -3);
+        $this->assertEquals(-3, $minStack->getMin());
         $minStack->pop();
         // return 0
-        $this->assertEquals($minStack->top(), 0);
+        $this->assertEquals(0, $minStack->top());
         // return -2
-        $this->assertEquals($minStack->getMin(), -2);
+        $this->assertEquals(-2, $minStack->getMin());
     }
 }
