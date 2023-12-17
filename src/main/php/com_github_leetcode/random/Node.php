@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 
 namespace leetcode\com_github_leetcode\random;
 
