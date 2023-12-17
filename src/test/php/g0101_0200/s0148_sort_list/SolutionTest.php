@@ -11,7 +11,7 @@ class SolutionTest extends TestCase {
         $listNode1->next = new ListNode(2);
         $listNode1->next->next = new ListNode(1);
         $listNode1->next->next->next = new ListNode(3);
-        $this->assertEquals((new Solution())->sortList($listNode1)->toString(), "1, 2, 3, 4");
+        $this->assertEquals("1, 2, 3, 4", (new Solution())->sortList($listNode1)->toString());
     }
 
     public function testSortList2() {
@@ -20,10 +20,10 @@ class SolutionTest extends TestCase {
         $listNode1->next->next = new ListNode(3);
         $listNode1->next->next->next = new ListNode(4);
         $listNode1->next->next->next->next = new ListNode(0);
-        $this->assertEquals((new Solution())->sortList($listNode1)->toString(), "-1, 0, 3, 4, 5");
+        $this->assertEquals("-1, 0, 3, 4, 5", (new Solution())->sortList($listNode1)->toString());
     }
 
     public function testSortList3() {
-        $this->assertEquals((new Solution())->sortList(NULL), NULL);
+        $this->assertEquals(null, (new Solution())->sortList(null));
     }
 }

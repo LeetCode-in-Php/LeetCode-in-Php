@@ -12,18 +12,18 @@ class SolutionTest extends TestCase {
         $listNode1->next->next = new ListNode(0);
         $listNode1->next->next->next = new ListNode(-4);
         $listNode1->next->next->next->next = $listNode1->next;
-        $this->assertEquals((new Solution())->detectCycle($listNode1) == $listNode1->next, true);
+        $this->assertEquals(true, (new Solution())->detectCycle($listNode1) == $listNode1->next);
     }
 
     public function testDetectCycle2() {
         $listNode1 = new ListNode(1);
         $listNode1->next = new ListNode(2);
         $listNode1->next->next = $listNode1;
-        $this->assertEquals((new Solution())->detectCycle($listNode1) == $listNode1, true);
+        $this->assertEquals(true, (new Solution())->detectCycle($listNode1) == $listNode1);
     }
 
     public function testDetectCycle3() {
         $listNode1 = new ListNode(1);
-        $this->assertEquals((new Solution())->detectCycle($listNode1), NULL);
+        $this->assertEquals(null, (new Solution())->detectCycle($listNode1));
     }
 }

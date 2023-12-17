@@ -16,13 +16,14 @@ class SolutionTest extends TestCase {
         $node13->next = $node11;
         $node11->next = $node10;
         $node10->next = $node1;
-        $node1->next = NULL;
-        $node7->random = NULL;
+        $node1->next = null;
+        $node7->random = null;
         $node13->random = $node7;
         $node11->random = $node1;
         $node10->random = $node11;
         $node1->random = $node7;
-        $this->assertEquals((new Solution())->copyRandomList($node7)->toString(), "[[7,null],[13,0],[11,4],[10,2],[1,0]]");
+        $this->assertEquals("[[7,null],[13,0],[11,4],[10,2],[1,0]]",
+            (new Solution())->copyRandomList($node7)->toString());
     }
 
     public function testCopyRandomList2() {
@@ -30,9 +31,9 @@ class SolutionTest extends TestCase {
         $node2 = new Node(2);
         $node1->next = $node2;
         $node1->random = $node1;
-        $node2->next = NULL;
+        $node2->next = null;
         $node2->random = $node2;
-        $this->assertEquals((new Solution())->copyRandomList($node1)->toString(), "[[1,1],[2,1]]");
+        $this->assertEquals("[[1,1],[2,1]]", (new Solution())->copyRandomList($node1)->toString());
     }
 
     public function testCopyRandomList3() {
@@ -40,11 +41,12 @@ class SolutionTest extends TestCase {
         $node32 = new Node(3);
         $node33 = new Node(3);
         $node31->next = $node32;
-        $node31->random = NULL;
+        $node31->random = null;
         $node32->next = $node33;
         $node32->random = $node31;
-        $node33->next = NULL;
-        $node33->random = NULL;
-        $this->assertEquals((new Solution())->copyRandomList($node31)->toString(), "[[3,null],[3,0],[3,null]]");
+        $node33->next = null;
+        $node33->random = null;
+        $this->assertEquals("[[3,null],[3,0],[3,null]]",
+            (new Solution())->copyRandomList($node31)->toString());
     }
 }

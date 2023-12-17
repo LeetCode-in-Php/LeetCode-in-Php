@@ -27,39 +27,39 @@ class Solution {
      * @return Node
      */
     public function copyRandomList($head) {
-        if ($head == NULL) {
-            return NULL;
+        if ($head == null) {
+            return null;
         }
         $curr = $head;
-        while ($curr != NULL) {
+        while ($curr != null) {
             $clonedNode = new Node($curr->val);
             $clonedNode->next = $curr->next;
             $curr->next = $clonedNode;
             $curr = $clonedNode->next;
         }
         $curr = $head;
-        while ($curr != NULL) {
-            if ($curr->random != NULL) {
+        while ($curr != null) {
+            if ($curr->random != null) {
                 $curr->next->random = $curr->random->next;
             } else {
-                $curr->next->random = NULL;
+                $curr->next->random = null;
             }
             $curr = $curr->next->next;
         }
         $curr = $head;
-        $newHead = NULL;
-        while ($curr != NULL) {
-            if ($newHead == NULL) {
+        $newHead = null;
+        while ($curr != null) {
+            if ($newHead == null) {
                 $clonedNode = $curr->next;
                 $newHead = $clonedNode;
             } else {
                 $clonedNode = $curr->next;
             }
             $curr->next = $clonedNode->next;
-            if ($curr->next != NULL) {
+            if ($curr->next != null) {
                 $clonedNode->next = $curr->next->next;
             } else {
-                $clonedNode->next = NULL;
+                $clonedNode->next = null;
             }
             $curr = $curr->next;
         }
