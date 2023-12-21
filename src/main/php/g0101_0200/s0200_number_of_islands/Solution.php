@@ -15,7 +15,7 @@ class Solution {
      */
     public function numIslands($grid) {
         $islands = 0;
-        if ($grid != null && count($grid) != 0 && count($grid[0]) != 0) {
+        if ($grid != null && !empty($grid) && count($grid[0]) != 0) {
             for ($i = 0; $i < count($grid); $i++) {
                 for ($j = 0; $j < count($grid[0]); $j++) {
                     if ($grid[$i][$j] == '1') {
