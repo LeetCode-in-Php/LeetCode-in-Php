@@ -2,8 +2,8 @@
 
 namespace leetcode\g0201_0300\s0226_invert_binary_tree;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\com_github_leetcode\TreeUtils;
+use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testInvertTree() {
