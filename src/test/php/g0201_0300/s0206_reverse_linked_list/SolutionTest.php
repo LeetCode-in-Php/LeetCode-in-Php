@@ -2,8 +2,8 @@
 
 namespace leetcode\g0201_0300\s0206_reverse_linked_list;
 
-use PHPUnit\Framework\TestCase;
 use leetcode\com_github_leetcode\ListNode;
+use PHPUnit\Framework\TestCase;
 
 class SolutionTest extends TestCase {
     public function testReverseList() {
