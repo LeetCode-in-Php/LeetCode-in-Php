@@ -38,9 +38,9 @@ class Solution {
             // update our dp table
             if ($dp[$start] > $curr) {
                 $dp[$start] = $curr;
-            } else if ($curr > $dp[$start] && $curr < $dp[$end]) {
+            } elseif ($curr > $dp[$start] && $curr < $dp[$end]) {
                 $dp[$end] = $curr;
-            } else if ($curr > $dp[$end]) {
+            } elseif ($curr > $dp[$end]) {
                 $dp[++$end] = $curr;
                 $right++;
             }

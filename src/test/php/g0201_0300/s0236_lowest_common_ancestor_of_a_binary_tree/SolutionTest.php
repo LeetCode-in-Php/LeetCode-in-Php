@@ -25,6 +25,7 @@ class SolutionTest extends TestCase {
     }
 
     public function testLowestCommonAncestor3() {
-        $this->assertEquals(2, (new Solution())->lowestCommonAncestor(new TreeNode(2, new TreeNode(1), null), new TreeNode(2), new TreeNode(1))->val);
+        $this->assertEquals(2, (new Solution())->lowestCommonAncestor(
+            new TreeNode(2, new TreeNode(1), null), new TreeNode(2), new TreeNode(1))->val);
     }
 }

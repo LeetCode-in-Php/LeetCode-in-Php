@@ -18,7 +18,7 @@ class Solution {
         while ($r < count($matrix) && $c >= 0) {
             if ($matrix[$r][$c] == $target) {
                 return true;
-            } else if ($matrix[$r][$c] > $target) {
+            } elseif ($matrix[$r][$c] > $target) {
                 $c--;
             } else {
                 $r++;
