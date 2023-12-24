@@ -315,6 +315,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0322 |[Coin Change](src/main/php/g0301_0400/s0322_coin_change/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search, Big_O_Time_O(m\*n)_Space_O(amount) | 185 | 96.30
 
 #### Day 21
 
@@ -448,6 +449,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0438 |[Find All Anagrams in a String](src/main/php/g0401_0500/s0438_find_all_anagrams_in_a_string/Solution.php)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n+m)_Space_O(1) | 29 | 66.67
 
 #### Day 13
 
@@ -687,6 +689,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0438 |[Find All Anagrams in a String](src/main/php/g0401_0500/s0438_find_all_anagrams_in_a_string/Solution.php)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n+m)_Space_O(1) | 29 | 66.67
 
 #### Day 13 Hashmap
 
@@ -698,6 +701,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0394 |[Decode String](src/main/php/g0301_0400/s0394_decode_string/Solution.php)| Medium | Top_100_Liked_Questions, String, Stack, Recursion, Big_O_Time_O(n)_Space_O(n) | 3 | 77.78
 
 #### Day 15 Heap
 
@@ -744,6 +748,8 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0543 |[Diameter of Binary Tree](src/main/php/g0501_0600/s0543_diameter_of_binary_tree/Solution.php)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0437 |[Path Sum III](src/main/php/g0401_0500/s0437_path_sum_iii/Solution.php)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 8 | 100.00
 
 #### Day 8 Binary Search
 
@@ -773,11 +779,13 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0198 |[House Robber](src/main/php/g0101_0200/s0198_house_robber/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 4 | 64.29
+| 0322 |[Coin Change](src/main/php/g0301_0400/s0322_coin_change/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search, Big_O_Time_O(m\*n)_Space_O(amount) | 185 | 96.30
 
 #### Day 13 Dynamic Programming
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0416 |[Partition Equal Subset Sum](src/main/php/g0401_0500/s0416_partition_equal_subset_sum/Solution.php)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Big_O_Time_O(n\*sums)_Space_O(n\*sums) | 245 | 86.67
 | 0152 |[Maximum Product Subarray](src/main/php/g0101_0200/s0152_maximum_product_subarray/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Big_O_Time_O(N)_Space_O(1) | 15 | 92.86
 
 #### Day 14 Sliding Window/Two Pointer
@@ -840,6 +848,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 | 0003 |[Longest Substring Without Repeating Characters](src/main/php/g0001_0100/s0003_longest_substring_without_repeating_characters/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n)_Space_O(1) | 4 | 99.33
 | 0020 |[Valid Parentheses](src/main/php/g0001_0100/s0020_valid_parentheses/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Big_O_Time_O(n)_Space_O(n) | 3 | 88.14
 | 0005 |[Longest Palindromic Substring](src/main/php/g0001_0100/s0005_longest_palindromic_substring/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Big_O_Time_O(n)_Space_O(n) | 13 | 98.57
+| 0394 |[Decode String](src/main/php/g0301_0400/s0394_decode_string/Solution.php)| Medium | Top_100_Liked_Questions, String, Stack, Recursion, Big_O_Time_O(n)_Space_O(n) | 3 | 77.78
 | 0049 |[Group Anagrams](src/main/php/g0001_0100/s0049_group_anagrams/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, String, Hash_Table, Sorting, Big_O_Time_O(n\*k_log_k)_Space_O(n) | 27 | 80.85
 
 #### Udemy Binary Search
@@ -913,6 +922,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0094 |[Binary Tree Inorder Traversal](src/main/php/g0001_0100/s0094_binary_tree_inorder_traversal/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Tree, Binary_Tree, Stack, Big_O_Time_O(n)_Space_O(n) | 3 | 82.09
 | 0102 |[Binary Tree Level Order Traversal](src/main/php/g0101_0200/s0102_binary_tree_level_order_traversal/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 4 | 96.08
+| 0543 |[Diameter of Binary Tree](src/main/php/g0501_0600/s0543_diameter_of_binary_tree/Solution.php)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
 | 0226 |[Invert Binary Tree](src/main/php/g0201_0300/s0226_invert_binary_tree/Solution.php)| Easy | Top_100_Liked_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(n)_Space_O(n) | 6 | 62.79
 | 0104 |[Maximum Depth of Binary Tree](src/main/php/g0101_0200/s0104_maximum_depth_of_binary_tree/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Depth_First_Search, Breadth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(H) | 9 | 63.06
 | 0124 |[Binary Tree Maximum Path Sum](src/main/php/g0101_0200/s0124_binary_tree_maximum_path_sum/Solution.php)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Dynamic_Programming, Depth_First_Search, Tree, Binary_Tree, Big_O_Time_O(N)_Space_O(N) | 16 | 100.00
@@ -958,6 +968,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0338 |[Counting Bits](src/main/php/g0301_0400/s0338_counting_bits/Solution.php)| Easy | Top_100_Liked_Questions, Dynamic_Programming, Bit_Manipulation, Big_O_Time_O(num)_Space_O(num) | 13 | 97.92
 
 #### Udemy Design
 
@@ -1085,6 +1096,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0238 |[Product of Array Except Self](src/main/php/g0201_0300/s0238_product_of_array_except_self/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Prefix_Sum, Big_O_Time_O(n^2)_Space_O(n) | 58 | 86.76
+| 0560 |[Subarray Sum Equals K](src/main/php/g0501_0600/s0560_subarray_sum_equals_k/Solution.php)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Prefix_Sum, Big_O_Time_O(n)_Space_O(n) | 82 | 100.00
 
 #### Day 6 String
 
@@ -1172,6 +1184,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0215 |[Kth Largest Element in an Array](src/main/php/g0201_0300/s0215_kth_largest_element_in_an_array/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Heap_Priority_Queue, Divide_and_Conquer, Quickselect, Big_O_Time_O(n\*log(n))_Space_O(log(n)) | 222 | 49.15
+| 0347 |[Top K Frequent Elements](src/main/php/g0301_0400/s0347_top_k_frequent_elements/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Heap_Priority_Queue, Counting, Divide_and_Conquer, Quickselect, Bucket_Sort, Big_O_Time_O(n\*log(n))_Space_O(k) | 23 | 84.85
 
 #### Day 21 Heap Priority Queue
 
@@ -1293,6 +1306,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
+| 0438 |[Find All Anagrams in a String](src/main/php/g0401_0500/s0438_find_all_anagrams_in_a_string/Solution.php)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Big_O_Time_O(n+m)_Space_O(1) | 29 | 66.67
 
 #### Day 6 Breadth First Search Depth First Search
 
@@ -1371,6 +1385,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0072 |[Edit Distance](src/main/php/g0001_0100/s0072_edit_distance/Solution.php)| Hard | Top_100_Liked_Questions, String, Dynamic_Programming, Big_O_Time_O(n^2)_Space_O(n2) | 29 | 75.00
+| 0322 |[Coin Change](src/main/php/g0301_0400/s0322_coin_change/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search, Big_O_Time_O(m\*n)_Space_O(amount) | 185 | 96.30
 
 #### Day 19 Bit Manipulation
 
@@ -1391,6 +1406,16 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | #    |      Title     | Difficulty  | Tag         | Time, ms | Time, %
 |------|----------------|-------------|-------------|----------|---------
+| 0560 |[Subarray Sum Equals K](src/main/php/g0501_0600/s0560_subarray_sum_equals_k/Solution.php)| Medium | Top_100_Liked_Questions, Array, Hash_Table, Prefix_Sum, Data_Structure_II_Day_5_Array, Big_O_Time_O(n)_Space_O(n) | 82 | 100.00
+| 0543 |[Diameter of Binary Tree](src/main/php/g0501_0600/s0543_diameter_of_binary_tree/Solution.php)| Easy | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Udemy_Tree_Stack_Queue, Big_O_Time_O(n)_Space_O(n) | 0 | 100.00
+| 0494 |[Target Sum](src/main/php/g0401_0500/s0494_target_sum/Solution.php)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Backtracking, Big_O_Time_O(n\*(sum+s))_Space_O(n\*(sum+s)) | 27 | 75.00
+| 0438 |[Find All Anagrams in a String](src/main/php/g0401_0500/s0438_find_all_anagrams_in_a_string/Solution.php)| Medium | Top_100_Liked_Questions, String, Hash_Table, Sliding_Window, Algorithm_II_Day_5_Sliding_Window, Programming_Skills_II_Day_12, Level_1_Day_12_Sliding_Window/Two_Pointer, Big_O_Time_O(n+m)_Space_O(1) | 29 | 66.67
+| 0437 |[Path Sum III](src/main/php/g0401_0500/s0437_path_sum_iii/Solution.php)| Medium | Top_100_Liked_Questions, Depth_First_Search, Tree, Binary_Tree, Level_2_Day_7_Tree, Big_O_Time_O(n)_Space_O(n) | 8 | 100.00
+| 0416 |[Partition Equal Subset Sum](src/main/php/g0401_0500/s0416_partition_equal_subset_sum/Solution.php)| Medium | Top_100_Liked_Questions, Array, Dynamic_Programming, Level_2_Day_13_Dynamic_Programming, Big_O_Time_O(n\*sums)_Space_O(n\*sums) | 245 | 86.67
+| 0394 |[Decode String](src/main/php/g0301_0400/s0394_decode_string/Solution.php)| Medium | Top_100_Liked_Questions, String, Stack, Recursion, Level_1_Day_14_Stack, Udemy_Strings, Big_O_Time_O(n)_Space_O(n) | 3 | 77.78
+| 0347 |[Top K Frequent Elements](src/main/php/g0301_0400/s0347_top_k_frequent_elements/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Heap_Priority_Queue, Counting, Divide_and_Conquer, Quickselect, Bucket_Sort, Data_Structure_II_Day_20_Heap_Priority_Queue, Big_O_Time_O(n\*log(n))_Space_O(k) | 23 | 84.85
+| 0338 |[Counting Bits](src/main/php/g0301_0400/s0338_counting_bits/Solution.php)| Easy | Top_100_Liked_Questions, Dynamic_Programming, Bit_Manipulation, Udemy_Bit_Manipulation, Big_O_Time_O(num)_Space_O(num) | 13 | 97.92
+| 0322 |[Coin Change](src/main/php/g0301_0400/s0322_coin_change/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Breadth_First_Search, Algorithm_II_Day_18_Dynamic_Programming, Dynamic_Programming_I_Day_20, Level_2_Day_12_Dynamic_Programming, Big_O_Time_O(m\*n)_Space_O(amount) | 185 | 96.30
 | 0300 |[Longest Increasing Subsequence](src/main/php/g0201_0300/s0300_longest_increasing_subsequence/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Binary_Search, Algorithm_II_Day_16_Dynamic_Programming, Binary_Search_II_Day_3, Dynamic_Programming_I_Day_18, Udemy_Dynamic_Programming, Big_O_Time_O(n\*log_n)_Space_O(n) | 24 | 90.91
 | 0295 |[Find Median from Data Stream](src/main/php/g0201_0300/s0295_find_median_from_data_stream/MedianFinder.php)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Sorting, Two_Pointers, Design, Heap_Priority_Queue, Data_Stream, Big_O_Time_O(n\*log_n)_Space_O(n) | 332 | 75.00
 | 0287 |[Find the Duplicate Number](src/main/php/g0201_0300/s0287_find_the_duplicate_number/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Binary_Search, Two_Pointers, Bit_Manipulation, Binary_Search_II_Day_5, Big_O_Time_O(n)_Space_O(n) | 174 | 76.92
