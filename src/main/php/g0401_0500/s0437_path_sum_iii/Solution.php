@@ -29,7 +29,11 @@ class Solution {
             $count[$prefixSum] = 1;
         }
         $prefixSum += $node->val;
-        $ans = $count[$prefixSum - $targetSum]
+        $countValue = 0;
+        if (isset($count[$prefixSum - $targetSum])) {
+            $countValue = $count[$prefixSum - $targetSum];
+        }
+        $ans = $countValue
             + $this->countPaths($node->left, $count, $prefixSum, $targetSum)
             + $this->countPaths($node->right, $count, $prefixSum, $targetSum);
         $prefixSum -= $node->val;
