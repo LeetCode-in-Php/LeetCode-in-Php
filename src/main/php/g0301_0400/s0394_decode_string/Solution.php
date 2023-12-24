@@ -20,11 +20,11 @@ class Solution {
             $this->i++;
             if (ctype_alpha($c)) {
                 $sb .= $c;
-            } else if (ctype_digit($c)) {
+            } elseif (ctype_digit($c)) {
                 $count = $count * 10 + intval($c);
-            } else if ($c == ']') {
+            } elseif ($c == ']') {
                 break;
-            } else if ($c == '[') {
+            } elseif ($c == '[') {
                 // sub problem
                 $repeat = $this->decodeString($s);
                 while ($count > 0) {
