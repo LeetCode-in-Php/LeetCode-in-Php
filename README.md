@@ -812,7 +812,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
 | 0042 |[Trapping Rain Water](src/main/php/g0001_0100/s0042_trapping_rain_water/Solution.php)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, Array, Dynamic_Programming, Two_Pointers, Stack, Monotonic_Stack, Big_O_Time_O(n)_Space_O(1) | 29 | 69.15
-| 0015 |[3Sum](src/main/php/g0001_0100/s0015_3sum/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n^2)_Space_O(1), Big_O_Time_O(n\*log(n))_Space_O(n^2) | 252 | 77.94
+| 0015 |[3Sum](src/main/php/g0001_0100/s0015_3sum/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 243 | 81.45
 
 #### Udemy Famous Algorithm
 
@@ -1006,7 +1006,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 |-|-|-|-|-|-
 | 0136 |[Single Number](src/main/php/g0101_0200/s0136_single_number/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Bit_Manipulation, Big_O_Time_O(N)_Space_O(1) | 33 | 80.08
 | 0169 |[Majority Element](src/main/php/g0101_0200/s0169_majority_element/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, Array, Hash_Table, Sorting, Counting, Divide_and_Conquer, Big_O_Time_O(n)_Space_O(1) | 43 | 72.03
-| 0015 |[3Sum](src/main/php/g0001_0100/s0015_3sum/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n^2)_Space_O(1), Big_O_Time_O(n\*log(n))_Space_O(n^2) | 252 | 77.94
+| 0015 |[3Sum](src/main/php/g0001_0100/s0015_3sum/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 243 | 81.45
 
 #### Day 2 Array
 
@@ -1231,7 +1231,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 
 | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- --> | <!-- -->
 |-|-|-|-|-|-
-| 0015 |[3Sum](src/main/php/g0001_0100/s0015_3sum/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n^2)_Space_O(1), Big_O_Time_O(n\*log(n))_Space_O(n^2) | 252 | 77.94
+| 0015 |[3Sum](src/main/php/g0001_0100/s0015_3sum/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 243 | 81.45
 
 #### Day 4 Two Pointers
 
@@ -1503,7 +1503,7 @@ Php-based LeetCode algorithm problem solutions, regularly updated.
 | 0020 |[Valid Parentheses](src/main/php/g0001_0100/s0020_valid_parentheses/Solution.php)| Easy | Top_100_Liked_Questions, Top_Interview_Questions, String, Stack, Data_Structure_I_Day_9_Stack_Queue, Udemy_Strings, Big_O_Time_O(n)_Space_O(n) | 3 | 88.14
 | 0019 |[Remove Nth Node From End of List](src/main/php/g0001_0100/s0019_remove_nth_node_from_end_of_list/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Two_Pointers, Linked_List, Algorithm_I_Day_5_Two_Pointers, Level_2_Day_3_Linked_List, Big_O_Time_O(L)_Space_O(L) | 4 | 81.93
 | 0017 |[Letter Combinations of a Phone Number](src/main/php/g0001_0100/s0017_letter_combinations_of_a_phone_number/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, String, Hash_Table, Backtracking, Algorithm_II_Day_11_Recursion_Backtracking, Udemy_Backtracking/Recursion, Big_O_Time_O(4^n)_Space_O(n) | 5 | 60.19
-| 0015 |[3Sum](src/main/php/g0001_0100/s0015_3sum/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_II_Day_1_Array, Algorithm_II_Day_3_Two_Pointers, Udemy_Two_Pointers, Big_O_Time_O(n^2)_Space_O(1), Big_O_Time_O(n\*log(n))_Space_O(n^2) | 252 | 77.94
+| 0015 |[3Sum](src/main/php/g0001_0100/s0015_3sum/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Sorting, Two_Pointers, Data_Structure_II_Day_1_Array, Algorithm_II_Day_3_Two_Pointers, Udemy_Two_Pointers, Big_O_Time_O(n\*log(n))_Space_O(n^2) | 243 | 81.45
 | 0011 |[Container With Most Water](src/main/php/g0001_0100/s0011_container_with_most_water/Solution.php)| Medium | Top_100_Liked_Questions, Top_Interview_Questions, Array, Greedy, Two_Pointers, Algorithm_II_Day_4_Two_Pointers, Big_O_Time_O(n)_Space_O(1) | 177 | 88.58
 | 0010 |[Regular Expression Matching](src/main/php/g0001_0100/s0010_regular_expression_matching/Solution.php)| Hard | Top_100_Liked_Questions, Top_Interview_Questions, String, Dynamic_Programming, Recursion, Udemy_Dynamic_Programming, Big_O_Time_O(m\*n)_Space_O(m\*n) | 10 | 64.52
 | 0009 |[Palindrome Number](src/main/php/g0001_0100/s0009_palindrome_number/Solution.php)| Easy | Math, Udemy_Integers | 23 | 76.73
