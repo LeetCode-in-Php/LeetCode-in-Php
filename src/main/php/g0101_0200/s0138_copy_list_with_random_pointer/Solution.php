@@ -3,8 +3,8 @@
 namespace leetcode\g0101_0200\s0138_copy_list_with_random_pointer;
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Hash_Table #Linked_List
-// #Programming_Skills_II_Day_14 #Udemy_Linked_List #Big_O_Time_O(N)_Space_O(N)
-// #2023_12_17_Time_2300_ms_(60.00%)_Space_22.7_MB_(60.00%)
+// #Programming_Skills_II_Day_14 #Udemy_Linked_List #Top_Interview_150_Linked_List
+// #Big_O_Time_O(N)_Space_O(N) #2023_12_17_Time_2300_ms_(60.00%)_Space_22.7_MB_(60.00%)
 
 use leetcode\com_github_leetcode\random\Node;
 

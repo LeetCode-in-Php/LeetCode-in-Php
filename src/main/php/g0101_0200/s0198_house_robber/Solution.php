@@ -3,9 +3,9 @@
 namespace leetcode\g0101_0200\s0198_house_robber;
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Dynamic_Programming
-// #Algorithm_I_Day_12_Dynamic_Programming #Dynamic_Programming_I_Day_3
-// #Level_2_Day_12_Dynamic_Programming #Udemy_Dynamic_Programming #Big_O_Time_O(n)_Space_O(n)
-// #2023_12_21_Time_4_ms_(64.29%)_Space_19.8_MB_(9.52%)
+// #LeetCode_75_DP/1D #Algorithm_I_Day_12_Dynamic_Programming #Dynamic_Programming_I_Day_3
+// #Level_2_Day_12_Dynamic_Programming #Udemy_Dynamic_Programming #Top_Interview_150_1D_DP
+// #Big_O_Time_O(n)_Space_O(n) #2023_12_21_Time_4_ms_(64.29%)_Space_19.8_MB_(9.52%)
 
 class Solution {
     /**

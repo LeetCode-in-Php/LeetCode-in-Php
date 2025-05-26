@@ -3,7 +3,8 @@
 namespace leetcode\g0001_0100\s0004_median_of_two_sorted_arrays;
 
 // #Hard #Top_100_Liked_Questions #Top_Interview_Questions #Array #Binary_Search #Divide_and_Conquer
-// #Big_O_Time_O(log(min(N,M)))_Space_O(1) #2023_12_03_Time_23_ms_(88.34%)_Space_19.1_MB_(87.47%)
+// #Top_Interview_150_Binary_Search #Big_O_Time_O(log(min(N,M)))_Space_O(1)
+// #AI_can_be_used_to_solve_the_task #2023_12_03_Time_23_ms_(88.34%)_Space_19.1_MB_(87.47%)
 
 class Solution {
     /**

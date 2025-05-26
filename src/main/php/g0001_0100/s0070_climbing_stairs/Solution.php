@@ -4,8 +4,8 @@ namespace leetcode\g0001_0100\s0070_climbing_stairs;
 
 // #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Dynamic_Programming #Math #Memoization
 // #Algorithm_I_Day_12_Dynamic_Programming #Dynamic_Programming_I_Day_2
-// #Level_1_Day_10_Dynamic_Programming #Udemy_Dynamic_Programming #Big_O_Time_O(n)_Space_O(n)
-// #2023_12_10_Time_3_ms_(82.81%)_Space_19.1_MB_(38.54%)
+// #Level_1_Day_10_Dynamic_Programming #Udemy_Dynamic_Programming #Top_Interview_150_1D_DP
+// #Big_O_Time_O(n)_Space_O(n) #2023_12_10_Time_3_ms_(82.81%)_Space_19.1_MB_(38.54%)
 
 class Solution {
     /**

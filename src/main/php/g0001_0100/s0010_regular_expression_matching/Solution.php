@@ -2,9 +2,8 @@
 
 namespace leetcode\g0001_0100\s0010_regular_expression_matching;
 
-// #Hard #Top_100_Liked_Questions #Top_Interview_Questions #String #Dynamic_Programming #Recursion
-// #Udemy_Dynamic_Programming #Big_O_Time_O(m*n)_Space_O(m*n)
-// #2023_12_03_Time_10_ms_(64.52%)_Space_19.3_MB_(61.29%)
+// #Hard #Top_Interview_Questions #String #Dynamic_Programming #Recursion #Udemy_Dynamic_Programming
+// #Big_O_Time_O(m*n)_Space_O(m*n) #2023_12_03_Time_10_ms_(64.52%)_Space_19.3_MB_(61.29%)
 
 class Solution {
     private $cache;

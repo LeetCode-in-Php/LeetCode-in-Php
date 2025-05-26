@@ -2,9 +2,8 @@
 
 namespace leetcode\g0701_0800\s0763_partition_labels;
 
-// #Medium #Top_100_Liked_Questions #String #Hash_Table #Greedy #Two_Pointers
-// #Data_Structure_II_Day_7_String #Big_O_Time_O(n)_Space_O(1)
-// #2023_12_24_Time_5_ms_(83.33%)_Space_19.5_MB_(50.00%)
+// #Medium #String #Hash_Table #Greedy #Two_Pointers #Data_Structure_II_Day_7_String
+// #Big_O_Time_O(n)_Space_O(1) #2023_12_24_Time_5_ms_(83.33%)_Space_19.5_MB_(50.00%)
 
 class Solution {
     /**

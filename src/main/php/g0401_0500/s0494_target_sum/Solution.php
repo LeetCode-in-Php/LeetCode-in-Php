@@ -2,8 +2,7 @@
 
 namespace leetcode\g0401_0500\s0494_target_sum;
 
-// #Medium #Top_100_Liked_Questions #Array #Dynamic_Programming #Backtracking
-// #Big_O_Time_O(n*(sum+s))_Space_O(n*(sum+s))
+// #Medium #Array #Dynamic_Programming #Backtracking #Big_O_Time_O(n*(sum+s))_Space_O(n*(sum+s))
 // #2023_12_24_Time_27_ms_(75.00%)_Space_20.3_MB_(8.33%)
 
 class Solution {

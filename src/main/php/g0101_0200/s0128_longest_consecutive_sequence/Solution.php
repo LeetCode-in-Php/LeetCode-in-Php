@@ -3,7 +3,8 @@
 namespace leetcode\g0101_0200\s0128_longest_consecutive_sequence;
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Hash_Table #Union_Find
-// #Big_O_Time_O(N_log_N)_Space_O(1) #2023_12_11_Time_154_ms_(75.61%)_Space_32.6_MB_(37.80%)
+// #Top_Interview_150_Hashmap #Big_O_Time_O(N_log_N)_Space_O(1)
+// #2023_12_11_Time_154_ms_(75.61%)_Space_32.6_MB_(37.80%)
 
 class Solution {
     /**

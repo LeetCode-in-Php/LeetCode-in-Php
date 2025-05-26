@@ -2,8 +2,8 @@
 
 namespace leetcode\g0201_0300\s0221_maximal_square;
 
-// #Medium #Top_100_Liked_Questions #Array #Dynamic_Programming #Matrix
-// #Dynamic_Programming_I_Day_16 #Big_O_Time_O(m*n)_Space_O(m*n)
+// #Medium #Array #Dynamic_Programming #Matrix #Dynamic_Programming_I_Day_16
+// #Top_Interview_150_Multidimensional_DP #Big_O_Time_O(m*n)_Space_O(m*n)
 // #2023_12_21_Time_209_ms_(83.33%)_Space_40.6_MB_(100.00%)
 
 class Solution {

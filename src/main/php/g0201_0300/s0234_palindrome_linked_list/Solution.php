@@ -2,8 +2,8 @@
 
 namespace leetcode\g0201_0300\s0234_palindrome_linked_list;
 
-// #Easy #Top_100_Liked_Questions #Top_Interview_Questions #Two_Pointers #Stack #Linked_List
-// #Recursion #Level_2_Day_3_Linked_List #Udemy_Linked_List #Big_O_Time_O(n)_Space_O(1)
+// #Easy #Top_100_Liked_Questions #Two_Pointers #Stack #Linked_List #Recursion
+// #Level_2_Day_3_Linked_List #Udemy_Linked_List #Big_O_Time_O(n)_Space_O(1)
 // #2023_12_23_Time_123_ms_(95.45%)_Space_50.6_MB_(75.00%)
 
 /**
