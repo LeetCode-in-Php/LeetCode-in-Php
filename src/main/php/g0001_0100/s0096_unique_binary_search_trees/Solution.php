@@ -2,8 +2,8 @@
 
 namespace leetcode\g0001_0100\s0096_unique_binary_search_trees;
 
-// #Medium #Top_100_Liked_Questions #Dynamic_Programming #Math #Tree #Binary_Tree
-// #Binary_Search_Tree #Dynamic_Programming_I_Day_11 #Big_O_Time_O(n)_Space_O(1)
+// #Medium #Dynamic_Programming #Math #Tree #Binary_Tree #Binary_Search_Tree
+// #Dynamic_Programming_I_Day_11 #Big_O_Time_O(n)_Space_O(1)
 // #2023_12_10_Time_0_ms_(100.00%)_Space_19.1_MB_(44.44%)
 
 class Solution {

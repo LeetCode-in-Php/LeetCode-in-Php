@@ -2,9 +2,9 @@
 
 namespace leetcode\g0201_0300\s0300_longest_increasing_subsequence;
 
-// #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Array #Dynamic_Programming
-// #Binary_Search #Algorithm_II_Day_16_Dynamic_Programming #Binary_Search_II_Day_3
-// #Dynamic_Programming_I_Day_18 #Udemy_Dynamic_Programming #Big_O_Time_O(n*log_n)_Space_O(n)
+// #Medium #Top_100_Liked_Questions #Array #Dynamic_Programming #Binary_Search
+// #Algorithm_II_Day_16_Dynamic_Programming #Binary_Search_II_Day_3 #Dynamic_Programming_I_Day_18
+// #Udemy_Dynamic_Programming #Top_Interview_150_1D_DP #Big_O_Time_O(n*log_n)_Space_O(n)
 // #2023_12_23_Time_24_ms_(90.91%)_Space_19.9_MB_(18.18%)
 
 class Solution {

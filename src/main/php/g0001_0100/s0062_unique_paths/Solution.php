@@ -3,9 +3,9 @@
 namespace leetcode\g0001_0100\s0062_unique_paths;
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Dynamic_Programming #Math
-// #Combinatorics #Algorithm_II_Day_13_Dynamic_Programming #Dynamic_Programming_I_Day_15
-// #Level_1_Day_11_Dynamic_Programming #Big_O_Time_O(m*n)_Space_O(m*n)
-// #2023_12_10_Time_3_ms_(81.58%)_Space_19.3_MB_(15.79%)
+// #Combinatorics #LeetCode_75_DP/Multidimensional #Algorithm_II_Day_13_Dynamic_Programming
+// #Dynamic_Programming_I_Day_15 #Level_1_Day_11_Dynamic_Programming
+// #Big_O_Time_O(m*n)_Space_O(m*n) #2023_12_10_Time_3_ms_(81.58%)_Space_19.3_MB_(15.79%)
 
 class Solution {
     /**

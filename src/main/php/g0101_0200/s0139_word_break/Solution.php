@@ -4,8 +4,8 @@ namespace leetcode\g0101_0200\s0139_word_break;
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #String #Hash_Table
 // #Dynamic_Programming #Trie #Memoization #Algorithm_II_Day_15_Dynamic_Programming
-// #Dynamic_Programming_I_Day_9 #Udemy_Dynamic_Programming #Big_O_Time_O(M+max*N)_Space_O(M+N+max)
-// #2023_12_14_Time_7_ms_(75.00%)_Space_19_MB_(84.38%)
+// #Dynamic_Programming_I_Day_9 #Udemy_Dynamic_Programming #Top_Interview_150_1D_DP
+// #Big_O_Time_O(M+max*N)_Space_O(M+N+max) #2023_12_14_Time_7_ms_(75.00%)_Space_19_MB_(84.38%)
 
 class Solution {
     /**

@@ -3,8 +3,8 @@
 namespace leetcode\g0201_0300\s0207_course_schedule;
 
 // #Medium #Top_100_Liked_Questions #Top_Interview_Questions #Depth_First_Search
-// #Breadth_First_Search #Graph #Topological_Sort #Big_O_Time_O(N)_Space_O(N)
-// #2023_12_21_Time_25_ms_(89.29%)_Space_22.3_MB_(100.00%)
+// #Breadth_First_Search #Graph #Topological_Sort #Top_Interview_150_Graph_General
+// #Big_O_Time_O(N)_Space_O(N) #2023_12_21_Time_25_ms_(89.29%)_Space_22.3_MB_(100.00%)
 
 class Solution {
     const WHITE = 0;

@@ -2,7 +2,7 @@
 
 namespace leetcode\g0601_0700\s0647_palindromic_substrings;
 
-// #Medium #Top_100_Liked_Questions #String #Dynamic_Programming #Big_O_Time_O(n^2)_Space_O(n)
+// #Medium #String #Dynamic_Programming #Big_O_Time_O(n^2)_Space_O(n)
 // #2023_12_24_Time_25_ms_(75.00%)_Space_19.6_MB_(50.00%)
 
 class Solution {
