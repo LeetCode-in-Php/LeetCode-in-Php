@@ -2,7 +2,7 @@
 
 namespace leetcode\g0001_0100\s0007_reverse_integer;
 
-// #Medium #Top_Interview_Questions #Math #Udemy_Integers
+// #Medium #Top_Interview_Questions #Math #Udemy_Integers #Big_O_Time_O(log10(x))_Space_O(1)
 // #2023_12_03_Time_3_ms_(90.99%)_Space_19.2_MB_(44.23%)
 
 class Solution {

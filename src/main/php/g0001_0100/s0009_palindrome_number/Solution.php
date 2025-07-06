@@ -2,7 +2,7 @@
 
 namespace leetcode\g0001_0100\s0009_palindrome_number;
 
-// #Easy #Math #Udemy_Integers #Top_Interview_150_Math
+// #Easy #Math #Udemy_Integers #Top_Interview_150_Math #Big_O_Time_O(log10(x))_Space_O(1)
 // #2023_12_03_Time_23_ms_(76.73%)_Space_19.4_MB_(5.93%)
 
 class Solution {

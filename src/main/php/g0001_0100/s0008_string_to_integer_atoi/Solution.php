@@ -2,7 +2,8 @@
 
 namespace leetcode\g0001_0100\s0008_string_to_integer_atoi;
 
-// #Medium #Top_Interview_Questions #String #2023_12_03_Time_3_ms_(93.18%)_Space_19.1_MB_(36.36%)
+// #Medium #Top_Interview_Questions #String #Big_O_Time_O(n)_Space_O(n)
+// #2023_12_03_Time_3_ms_(93.18%)_Space_19.1_MB_(36.36%)
 
 class Solution {
     /**
